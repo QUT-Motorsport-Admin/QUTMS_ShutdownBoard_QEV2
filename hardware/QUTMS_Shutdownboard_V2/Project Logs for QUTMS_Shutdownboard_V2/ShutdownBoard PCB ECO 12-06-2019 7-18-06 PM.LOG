@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=PWR_ONLED Pin=R50-1
+Removed Pin From Net: NetName=+5 Pin=R50-2
+Change Component Comment : Designator=R50 Old Comment=100R 5% 0603(1608) New Comment=330R 5% 0603(1608)
+Change component parameters: Designator = "R50"; Footprint = "RESC0603(1608)_L"; UniqueID = "\KEDNYHFQ\QNZEIQCH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "0.1 W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "330.00 Ohm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=R50-1
+Added Pin To Net: NetName=PWR_ONLED Pin=R50-2
+Added Member To Class: ClassName=Power Member=Component U7 LD1117S50CTR
+Added Room: Name=BMS_Filtering
+Added Room: Name=BPSD_Filtering
+Added Room: Name=BPSD_Simulation
+Added Room: Name=CANBUS
+Added Room: Name=Connector
+Added Room: Name=Demux
+Added Room: Name=HVD_Filtering
+Added Room: Name=IMD_Filtering
+Added Room: Name=Microcontroller
+Added Room: Name=PDOC_Filtering
+Added Room: Name=Power
+Added Room: Name=Shutdown

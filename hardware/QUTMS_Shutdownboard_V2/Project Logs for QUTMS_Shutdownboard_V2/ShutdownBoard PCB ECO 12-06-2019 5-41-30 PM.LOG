@@ -1,0 +1,20 @@
+Added Pin To Net: NetName=MCU_RESET Pin=P4-5
+Added Pin To Net: NetName=CAN_CS Pin=U6-43
+Added Net: Name=CAN_CS
+Added Pin To Net: NetName=MCU_CLK Pin=P4-3
+Added Pin To Net: NetName=MCU_CLK Pin=U6-3
+Added Net: Name=MCU_CLK
+Added Pin To Net: NetName=MCU_MISO Pin=P4-1
+Added Pin To Net: NetName=MCU_MISO Pin=U6-2
+Added Net: Name=MCU_MISO
+Added Pin To Net: NetName=MCU_MOSI Pin=P4-4
+Added Pin To Net: NetName=MCU_MOSI Pin=U6-1
+Added Net: Name=MCU_MOSI
+Added Pin To Net: NetName=NetU3_10 Pin=U3-10
+Added Net: Name=NetU3_10
+Added Pin To Net: NetName=NetU3_11 Pin=U3-11
+Added Net: Name=NetU3_11
+Added Pin To Net: NetName=NetU3_12 Pin=U3-12
+Added Net: Name=NetU3_12
+Added Pin To Net: NetName=NetU3_13 Pin=U3-13
+Added Net: Name=NetU3_13

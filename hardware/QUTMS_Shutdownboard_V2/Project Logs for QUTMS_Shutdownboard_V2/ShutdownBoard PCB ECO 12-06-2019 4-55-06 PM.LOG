@@ -1,0 +1,69 @@
+Added Component: Designator=LED3(KING-LED0603-25-ORANGE_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.kingbrightusa.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.kingbrightusa.com/images/catalog/SPEC/APG1608SEKC-T.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 4A, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "30 mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin SMT LED, 1.6 x 0.8 mm Body, 0.25mm Thickness"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LED0603-25-ORANGE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 4A, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "APG1608SEKC/T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "75 mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reverse Voltage"; Value = "5 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Storage Temperature"; Value = "-40 to 85 degC"; VariantName = "[No Variations]"
+Added Component: Designator=LED4(KING-LED0603-25-ORANGE_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.kingbrightusa.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.kingbrightusa.com/images/catalog/SPEC/APG1608SEKC-T.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 4A, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "30 mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin SMT LED, 1.6 x 0.8 mm Body, 0.25mm Thickness"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LED0603-25-ORANGE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 4A, 12/2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "APG1608SEKC/T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "75 mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reverse Voltage"; Value = "5 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Storage Temperature"; Value = "-40 to 85 degC"; VariantName = "[No Variations]"
+Added Component: Designator=R55(RESC0603(1608)_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.1 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330.00 Ohm"; VariantName = "[No Variations]"
+Added Component: Designator=R56(RESC0603(1608)_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.1 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330.00 Ohm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=LED3-2
+Added Pin To Net: NetName=GND Pin=LED4-2
+Added Pin To Net: NetName=MCU_LED_A Pin=R55-1
+Added Pin To Net: NetName=MCU_LED_A Pin=U6-15
+Added Net: Name=MCU_LED_A
+Added Pin To Net: NetName=MCU_LED_B Pin=R56-1
+Added Pin To Net: NetName=MCU_LED_B Pin=U6-16
+Added Net: Name=MCU_LED_B
+Added Pin To Net: NetName=NetLED3_1 Pin=LED3-1
+Added Pin To Net: NetName=NetLED3_1 Pin=R55-2
+Added Net: Name=NetLED3_1
+Added Pin To Net: NetName=NetLED4_1 Pin=LED4-1
+Added Pin To Net: NetName=NetLED4_1 Pin=R56-2
+Added Net: Name=NetLED4_1
+Added Member To Class: ClassName=Microcontroller Member=Component LED3 2V 20mA 0603 Org
+Added Member To Class: ClassName=Microcontroller Member=Component LED4 2V 20mA 0603 Org
+Added Member To Class: ClassName=Shutdown Member=Component R51 1K 5% 0603(1608)
+Added Member To Class: ClassName=Microcontroller Member=Component R55 330R 5% 0603(1608)
+Added Member To Class: ClassName=Microcontroller Member=Component R56 330R 5% 0603(1608)

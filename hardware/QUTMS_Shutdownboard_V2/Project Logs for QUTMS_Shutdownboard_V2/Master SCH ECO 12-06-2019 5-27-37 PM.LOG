@@ -1,0 +1,4 @@
+Add Pin To Net: Pin=P4-1 Old Net=MCU_MISO New Net=MCU_MISO
+Add Pin To Net: Pin=P4-4 Old Net=MCU_MOSI New Net=MCU_MOSI
+Add Pin To Net: Pin=U6-1 Old Net=MCU_MOSI New Net=MCU_MOSI
+Add Pin To Net: Pin=U6-2 Old Net=MCU_MISO New Net=MCU_MISO

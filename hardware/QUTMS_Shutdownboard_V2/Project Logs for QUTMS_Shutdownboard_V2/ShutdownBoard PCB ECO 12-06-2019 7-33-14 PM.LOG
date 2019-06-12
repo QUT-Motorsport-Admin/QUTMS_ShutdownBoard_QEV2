@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=SHDN_UPRIGHT_FR Pin=U5-3
+Removed Pin From Net: NetName=SHDN_UPRIGHT_FL Pin=U5-4
+Added Pin To Net: NetName=SHDN_UPRIGHT_FL Pin=U5-3
+Added Pin To Net: NetName=SHDN_UPRIGHT_FR Pin=U5-4

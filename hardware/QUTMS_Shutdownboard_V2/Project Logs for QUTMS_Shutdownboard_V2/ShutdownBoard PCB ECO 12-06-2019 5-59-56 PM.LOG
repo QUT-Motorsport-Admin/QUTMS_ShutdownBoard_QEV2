@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetJ1_1 Pin=J1-1
+Removed Pin From Net: NetName=NetJ1_9 Pin=J1-9
+Added Pin To Net: NetName=NetJ1_9 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-9
+Change Net Name : Old Net Name=NetJ1_1 New Net Name=SHUTDOWN_IN
+Change Net Name : Old Net Name=NetJ1_2 New Net Name=LEM_IN_RAW
+Change Net Name : Old Net Name=NetJ1_3 New Net Name=BRK_PRS_IN_RAW
+Change Net Name : Old Net Name=NetJ1_4 New Net Name=PDOC_IN
+Change Net Name : Old Net Name=NetJ1_5 New Net Name=BMS_IN
+Change Net Name : Old Net Name=NetJ1_6 New Net Name=IMD_IN
+Change Net Name : Old Net Name=NetJ1_7 New Net Name=HVD_IN
+Change Net Name : Old Net Name=NetJ1_8 New Net Name=SHUTDOWN_RESET
+Change Net Name : Old Net Name=NetJ1_9 New Net Name=SHUTDOWN_OUT

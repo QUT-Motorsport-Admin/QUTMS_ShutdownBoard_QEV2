@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=HVD_IN Pin=J1-8
+Removed Pin From Net: NetName=SHUTDOWN_IN Pin=J1-9
+Added Pin To Net: NetName=SHUTDOWN_IN Pin=J1-8
+Added Pin To Net: NetName=HVD_IN Pin=J1-9

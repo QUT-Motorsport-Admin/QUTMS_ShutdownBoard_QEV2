@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=SHDN_DASH_INERTIA Pin=U5-19
+Removed Pin From Net: NetName=SHDN_ESTOP_RIGHT Pin=U5-20
+Removed Pin From Net: NetName=SHDN_ESTOP_LEFT Pin=U5-21
+Removed Pin From Net: NetName=SHDN_UPRIGHT_BR Pin=U5-23
+Added Pin To Net: NetName=SHDN_UPRIGHT_BR Pin=U5-19
+Added Pin To Net: NetName=SHDN_ESTOP_LEFT Pin=U5-20
+Added Pin To Net: NetName=SHDN_ESTOP_RIGHT Pin=U5-21
+Added Pin To Net: NetName=SHDN_DASH_INERTIA Pin=U5-23

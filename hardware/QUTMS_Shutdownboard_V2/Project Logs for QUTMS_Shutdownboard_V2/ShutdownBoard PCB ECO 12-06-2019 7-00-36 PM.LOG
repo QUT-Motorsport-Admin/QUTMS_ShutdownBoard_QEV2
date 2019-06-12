@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=SHDN_EXTRA_B Pin=U5-16
+Removed Pin From Net: NetName=SHDN_EXTRA_C Pin=U5-17
+Removed Pin From Net: NetName=SHDN_EXTRA_A Pin=U5-18
+Added Pin To Net: NetName=SHDN_EXTRA_A Pin=U5-16
+Added Pin To Net: NetName=SHDN_EXTRA_B Pin=U5-17
+Added Pin To Net: NetName=SHDN_EXTRA_C Pin=U5-18
+Added Room: Name=BMS_Filtering
+Added Room: Name=BPSD_Filtering
+Added Room: Name=BPSD_Simulation
+Added Room: Name=CANBUS
+Added Room: Name=Connector
+Added Room: Name=Demux
+Added Room: Name=HVD_Filtering
+Added Room: Name=IMD_Filtering
+Added Room: Name=Microcontroller
+Added Room: Name=PDOC_Filtering
+Added Room: Name=Power
+Added Room: Name=Shutdown

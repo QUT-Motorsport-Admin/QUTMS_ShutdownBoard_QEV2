@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=MCU_CLK Pin=P4-1
+Removed Pin From Net: NetName=MCU_CLK Pin=P4-4
+Removed Pin From Net: NetName=MCU_CLK Pin=U6-1
+Removed Pin From Net: NetName=MCU_CLK Pin=U6-2

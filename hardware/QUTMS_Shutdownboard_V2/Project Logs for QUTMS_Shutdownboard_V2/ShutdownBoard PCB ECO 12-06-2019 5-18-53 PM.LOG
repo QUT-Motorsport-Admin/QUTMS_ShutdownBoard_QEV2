@@ -1,0 +1,4 @@
+Change Net Name : Old Net Name=NetU3_10 New Net Name=MCU_MOSI
+Change Net Name : Old Net Name=NetU3_11 New Net Name=MCU_MISO
+Change Net Name : Old Net Name=NetU3_12 New Net Name=MCU_CLK
+Change Net Name : Old Net Name=NetU3_13 New Net Name=CAN_CS

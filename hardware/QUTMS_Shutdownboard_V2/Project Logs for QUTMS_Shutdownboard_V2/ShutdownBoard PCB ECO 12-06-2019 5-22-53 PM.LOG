@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=MCU_CLK Pin=P4-1
+Added Pin To Net: NetName=MCU_CLK Pin=P4-4
+Added Pin To Net: NetName=MCU_CLK Pin=U6-1
+Added Pin To Net: NetName=MCU_CLK Pin=U6-2

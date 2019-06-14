@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [QUTMS_Shutdownboard_V2.PrjPcb]
+   Generated File[ShutdownBoard.TXT]
+   Generated File[ShutdownBoard.LDP]
+   Generated File[ShutdownBoard.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 8:52:30 PM On 14/06/2019

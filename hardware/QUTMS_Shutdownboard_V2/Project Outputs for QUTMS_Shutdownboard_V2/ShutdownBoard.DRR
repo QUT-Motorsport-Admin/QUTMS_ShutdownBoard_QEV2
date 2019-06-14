@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: ShutdownBoard.PcbDoc   14/06/2019  8:52:30 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : ShutdownBoard.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             128       PTH        0.00inch (0.00mm)
+T2      33mil (0.85mm)                                            Round             20        PTH        0.00inch (0.00mm)
+T3      35mil (0.9mm)                                             Round             26        PTH        0.00inch (0.00mm)
+T4      51mil (1.3mm)                                             Round             82        PTH        0.00inch (0.00mm)
+T5      126mil (3.2mm)                                            Round             5         NPTH       0.00inch (0.00mm)
+T6      130mil (3.3mm)                                            Round             2         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              263
+
+Total Processing Time (hh:mm:ss) : 00:00:00

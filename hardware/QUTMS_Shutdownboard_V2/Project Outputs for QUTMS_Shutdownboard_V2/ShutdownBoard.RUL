@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: R:\Users\Jonn\Documents\git\qutms\QUTMS_ShutdownBoard_V2\hardware\QUTMS_Shutdownboard_V2\ShutdownBoard.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

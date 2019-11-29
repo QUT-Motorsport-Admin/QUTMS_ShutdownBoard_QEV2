@@ -1,0 +1,1708 @@
+
+QUTMS_ShutdownBoard_Firmware.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .data         00000000  00800100  00800100  000008d4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  1 .text         00000860  00000000  00000000  00000074  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .bss          00000005  00800100  00800100  000008d4  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  000008d4  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 00000040  00000000  00000000  00000904  2**2
+                  CONTENTS, READONLY
+  5 .debug_aranges 00000178  00000000  00000000  00000944  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   000025ee  00000000  00000000  00000abc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 00000e12  00000000  00000000  000030aa  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   00000f93  00000000  00000000  00003ebc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  00000480  00000000  00000000  00004e50  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    0000109d  00000000  00000000  000052d0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    0000162d  00000000  00000000  0000636d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 00000158  00000000  00000000  0000799a  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	45 c0       	rjmp	.+138    	; 0x8c <__ctors_end>
+   2:	00 00       	nop
+   4:	53 c0       	rjmp	.+166    	; 0xac <__bad_interrupt>
+   6:	00 00       	nop
+   8:	51 c0       	rjmp	.+162    	; 0xac <__bad_interrupt>
+   a:	00 00       	nop
+   c:	4f c0       	rjmp	.+158    	; 0xac <__bad_interrupt>
+   e:	00 00       	nop
+  10:	4d c0       	rjmp	.+154    	; 0xac <__bad_interrupt>
+  12:	00 00       	nop
+  14:	4b c0       	rjmp	.+150    	; 0xac <__bad_interrupt>
+  16:	00 00       	nop
+  18:	49 c0       	rjmp	.+146    	; 0xac <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	47 c0       	rjmp	.+142    	; 0xac <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	45 c0       	rjmp	.+138    	; 0xac <__bad_interrupt>
+  22:	00 00       	nop
+  24:	43 c0       	rjmp	.+134    	; 0xac <__bad_interrupt>
+  26:	00 00       	nop
+  28:	41 c0       	rjmp	.+130    	; 0xac <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	3f c0       	rjmp	.+126    	; 0xac <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	3d c0       	rjmp	.+122    	; 0xac <__bad_interrupt>
+  32:	00 00       	nop
+  34:	3b c0       	rjmp	.+118    	; 0xac <__bad_interrupt>
+  36:	00 00       	nop
+  38:	39 c0       	rjmp	.+114    	; 0xac <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	37 c0       	rjmp	.+110    	; 0xac <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	35 c0       	rjmp	.+106    	; 0xac <__bad_interrupt>
+  42:	00 00       	nop
+  44:	33 c0       	rjmp	.+102    	; 0xac <__bad_interrupt>
+  46:	00 00       	nop
+  48:	31 c0       	rjmp	.+98     	; 0xac <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	2f c0       	rjmp	.+94     	; 0xac <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	2d c0       	rjmp	.+90     	; 0xac <__bad_interrupt>
+  52:	00 00       	nop
+  54:	2b c0       	rjmp	.+86     	; 0xac <__bad_interrupt>
+  56:	00 00       	nop
+  58:	29 c0       	rjmp	.+82     	; 0xac <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	27 c0       	rjmp	.+78     	; 0xac <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	25 c0       	rjmp	.+74     	; 0xac <__bad_interrupt>
+  62:	00 00       	nop
+  64:	23 c0       	rjmp	.+70     	; 0xac <__bad_interrupt>
+  66:	00 00       	nop
+  68:	21 c0       	rjmp	.+66     	; 0xac <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	1f c0       	rjmp	.+62     	; 0xac <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	1d c0       	rjmp	.+58     	; 0xac <__bad_interrupt>
+  72:	00 00       	nop
+  74:	1b c0       	rjmp	.+54     	; 0xac <__bad_interrupt>
+  76:	00 00       	nop
+  78:	19 c0       	rjmp	.+50     	; 0xac <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	17 c0       	rjmp	.+46     	; 0xac <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	15 c0       	rjmp	.+42     	; 0xac <__bad_interrupt>
+  82:	00 00       	nop
+  84:	13 c0       	rjmp	.+38     	; 0xac <__bad_interrupt>
+  86:	00 00       	nop
+  88:	11 c0       	rjmp	.+34     	; 0xac <__bad_interrupt>
+	...
+
+0000008c <__ctors_end>:
+  8c:	11 24       	eor	r1, r1
+  8e:	1f be       	out	0x3f, r1	; 63
+  90:	cf ef       	ldi	r28, 0xFF	; 255
+  92:	d0 e4       	ldi	r29, 0x40	; 64
+  94:	de bf       	out	0x3e, r29	; 62
+  96:	cd bf       	out	0x3d, r28	; 61
+
+00000098 <__do_clear_bss>:
+  98:	21 e0       	ldi	r18, 0x01	; 1
+  9a:	a0 e0       	ldi	r26, 0x00	; 0
+  9c:	b1 e0       	ldi	r27, 0x01	; 1
+  9e:	01 c0       	rjmp	.+2      	; 0xa2 <.do_clear_bss_start>
+
+000000a0 <.do_clear_bss_loop>:
+  a0:	1d 92       	st	X+, r1
+
+000000a2 <.do_clear_bss_start>:
+  a2:	a5 30       	cpi	r26, 0x05	; 5
+  a4:	b2 07       	cpc	r27, r18
+  a6:	e1 f7       	brne	.-8      	; 0xa0 <.do_clear_bss_loop>
+  a8:	20 d0       	rcall	.+64     	; 0xea <main>
+  aa:	d8 c3       	rjmp	.+1968   	; 0x85c <_exit>
+
+000000ac <__bad_interrupt>:
+  ac:	a9 cf       	rjmp	.-174    	; 0x0 <__vectors>
+
+000000ae <adc_init>:
+Input   :   none
+Returns :   void
+Notes   :
+============================================================================*/
+void adc_init() {
+    ADCSRA = 0; // Clear 
+  ae:	aa e7       	ldi	r26, 0x7A	; 122
+  b0:	b0 e0       	ldi	r27, 0x00	; 0
+  b2:	1c 92       	st	X, r1
+    // Right adjust result
+    ADMUX &= ~(1<<ADLAR); // Clear
+  b4:	ec e7       	ldi	r30, 0x7C	; 124
+  b6:	f0 e0       	ldi	r31, 0x00	; 0
+  b8:	80 81       	ld	r24, Z
+  ba:	8f 7d       	andi	r24, 0xDF	; 223
+  bc:	80 83       	st	Z, r24
+    ADMUX |= (1 << REFS0);
+  be:	80 81       	ld	r24, Z
+  c0:	80 64       	ori	r24, 0x40	; 64
+  c2:	80 83       	st	Z, r24
+    ADCSRA |= (1 << ADEN)|(1 << ADPS2)|(1 << ADPS1)|(1 << ADPS0);
+  c4:	8c 91       	ld	r24, X
+  c6:	87 68       	ori	r24, 0x87	; 135
+  c8:	8c 93       	st	X, r24
+  ca:	08 95       	ret
+
+000000cc <shutdown_board_init>:
+Returns :   void
+Notes   :
+============================================================================*/
+void shutdown_board_init() 
+{
+	DDRD = 0b11000010; // LEDs as outputs
+  cc:	82 ec       	ldi	r24, 0xC2	; 194
+  ce:	8a b9       	out	0x0a, r24	; 10
+	DDRB = 0b10111000; // MOSI and SCK and CAN_CS as output, SS output
+  d0:	88 eb       	ldi	r24, 0xB8	; 184
+  d2:	84 b9       	out	0x04, r24	; 4
+
+	CAN_CS_PORT |= (1<<CAN_CS); // CS high to turn off
+  d4:	2b 9a       	sbi	0x05, 3	; 5
+	
+	adc_init();
+  d6:	eb df       	rcall	.-42     	; 0xae <adc_init>
+	uart0_init(9600);
+  d8:	80 e8       	ldi	r24, 0x80	; 128
+  da:	95 e2       	ldi	r25, 0x25	; 37
+  dc:	a3 d3       	rcall	.+1862   	; 0x824 <uart0_init>
+	spi_init(0,0); // 1,0
+  de:	60 e0       	ldi	r22, 0x00	; 0
+  e0:	80 e0       	ldi	r24, 0x00	; 0
+	MCP2517_init();
+  e2:	82 d3       	rcall	.+1796   	; 0x7e8 <spi_init>
+  e4:	9b d0       	rcall	.+310    	; 0x21c <MCP2517_init>
+	sei(); // Enable interrupts
+  e6:	78 94       	sei
+  e8:	08 95       	ret
+
+000000ea <main>:
+}
+
+int main(void)
+{
+  ea:	cf 93       	push	r28
+  ec:	df 93       	push	r29
+  ee:	cd b7       	in	r28, 0x3d	; 61
+  f0:	de b7       	in	r29, 0x3e	; 62
+  f2:	2d 97       	sbiw	r28, 0x0d	; 13
+  f4:	0f b6       	in	r0, 0x3f	; 63
+  f6:	f8 94       	cli
+  f8:	de bf       	out	0x3e, r29	; 62
+  fa:	0f be       	out	0x3f, r0	; 63
+  fc:	cd bf       	out	0x3d, r28	; 61
+    shutdown_board_init();
+  fe:	e6 df       	rcall	.-52     	; 0xcc <shutdown_board_init>
+	
+	SHUTDOWN_BOARD_DATA[0] = 0x00;
+ 100:	e0 e0       	ldi	r30, 0x00	; 0
+ 102:	f1 e0       	ldi	r31, 0x01	; 1
+ 104:	10 82       	st	Z, r1
+	SHUTDOWN_BOARD_DATA[1] = 0x01;
+ 106:	81 e0       	ldi	r24, 0x01	; 1
+ 108:	81 83       	std	Z+1, r24	; 0x01
+	SHUTDOWN_BOARD_DATA[2] = 0x02;
+ 10a:	82 e0       	ldi	r24, 0x02	; 2
+ 10c:	82 83       	std	Z+2, r24	; 0x02
+	SHUTDOWN_BOARD_DATA[3] = 0x03;
+ 10e:	83 e0       	ldi	r24, 0x03	; 3
+ 110:	83 83       	std	Z+3, r24	; 0x03
+	SHUTDOWN_BOARD_DATA[4] = 0x04;
+ 112:	84 e0       	ldi	r24, 0x04	; 4
+ 114:	84 83       	std	Z+4, r24	; 0x04
+	
+	uint8_t data[8] = {0};
+ 116:	fe 01       	movw	r30, r28
+ 118:	31 96       	adiw	r30, 0x01	; 1
+ 11a:	88 e0       	ldi	r24, 0x08	; 8
+ 11c:	df 01       	movw	r26, r30
+ 11e:	1d 92       	st	X+, r1
+ 120:	8a 95       	dec	r24
+ 122:	e9 f7       	brne	.-6      	; 0x11e <main+0x34>
+	uint32_t receiveID;
+	uint8_t numDataBytes;
+	
+    while(1) 
+    {
+		MCP2517_recieveMessage(&receiveID, &numDataBytes, data);
+ 124:	ae 01       	movw	r20, r28
+ 126:	4f 5f       	subi	r20, 0xFF	; 255
+ 128:	5f 4f       	sbci	r21, 0xFF	; 255
+ 12a:	be 01       	movw	r22, r28
+ 12c:	63 5f       	subi	r22, 0xF3	; 243
+ 12e:	7f 4f       	sbci	r23, 0xFF	; 255
+ 130:	ce 01       	movw	r24, r28
+ 132:	09 96       	adiw	r24, 0x09	; 9
+ 134:	fb d1       	rcall	.+1014   	; 0x52c <MCP2517_recieveMessage>
+		if(receiveID == CAN_ID_PDM >> 18) {
+ 136:	89 85       	ldd	r24, Y+9	; 0x09
+ 138:	9a 85       	ldd	r25, Y+10	; 0x0a
+ 13a:	ab 85       	ldd	r26, Y+11	; 0x0b
+ 13c:	bc 85       	ldd	r27, Y+12	; 0x0c
+ 13e:	80 34       	cpi	r24, 0x40	; 64
+ 140:	92 40       	sbci	r25, 0x02	; 2
+ 142:	a1 05       	cpc	r26, r1
+ 144:	b1 05       	cpc	r27, r1
+ 146:	99 f4       	brne	.+38     	; 0x16e <main+0x84>
+			LED_A_ON;		
+ 148:	5e 9a       	sbi	0x0b, 6	; 11
+			MCP2517_transmitMessage(CAN_ID_WHEEL, 5, SHUTDOWN_BOARD_DATA);
+ 14a:	20 e0       	ldi	r18, 0x00	; 0
+ 14c:	31 e0       	ldi	r19, 0x01	; 1
+ 14e:	45 e0       	ldi	r20, 0x05	; 5
+ 150:	60 e0       	ldi	r22, 0x00	; 0
+ 152:	70 e0       	ldi	r23, 0x00	; 0
+ 154:	80 e4       	ldi	r24, 0x40	; 64
+ 156:	90 e0       	ldi	r25, 0x00	; 0
+ 158:	cc d2       	rcall	.+1432   	; 0x6f2 <MCP2517_transmitMessage>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 15a:	8f ef       	ldi	r24, 0xFF	; 255
+ 15c:	91 ee       	ldi	r25, 0xE1	; 225
+ 15e:	a4 e0       	ldi	r26, 0x04	; 4
+ 160:	81 50       	subi	r24, 0x01	; 1
+ 162:	90 40       	sbci	r25, 0x00	; 0
+ 164:	a0 40       	sbci	r26, 0x00	; 0
+ 166:	e1 f7       	brne	.-8      	; 0x160 <main+0x76>
+ 168:	00 c0       	rjmp	.+0      	; 0x16a <main+0x80>
+ 16a:	00 00       	nop
+			_delay_ms(100);
+			LED_A_OFF;
+ 16c:	5e 98       	cbi	0x0b, 6	; 11
+ 16e:	bf ef       	ldi	r27, 0xFF	; 255
+ 170:	23 ec       	ldi	r18, 0xC3	; 195
+ 172:	89 e0       	ldi	r24, 0x09	; 9
+ 174:	b1 50       	subi	r27, 0x01	; 1
+ 176:	20 40       	sbci	r18, 0x00	; 0
+ 178:	80 40       	sbci	r24, 0x00	; 0
+ 17a:	e1 f7       	brne	.-8      	; 0x174 <main+0x8a>
+ 17c:	00 c0       	rjmp	.+0      	; 0x17e <main+0x94>
+ 17e:	00 00       	nop
+ 180:	d1 cf       	rjmp	.-94     	; 0x124 <main+0x3a>
+
+00000182 <MCP2517_assertCS>:
+		const uint32_t readBackValue = MCP2517_readReg32(0x400);
+		if (readBackValue != i) {
+			uart0_transmit(MCP2517_RAM_ERROR); // Error code
+		}
+	}
+}
+ 182:	2b 98       	cbi	0x05, 3	; 5
+ 184:	08 95       	ret
+
+00000186 <MCP2517_deassertCS>:
+ 186:	2b 9a       	sbi	0x05, 3	; 5
+ 188:	08 95       	ret
+
+0000018a <MCP2517_reset>:
+ 18a:	cf 93       	push	r28
+ 18c:	df 93       	push	r29
+ 18e:	00 d0       	rcall	.+0      	; 0x190 <MCP2517_reset+0x6>
+ 190:	cd b7       	in	r28, 0x3d	; 61
+ 192:	de b7       	in	r29, 0x3e	; 62
+ 194:	1a 82       	std	Y+2, r1	; 0x02
+ 196:	19 82       	std	Y+1, r1	; 0x01
+ 198:	80 e2       	ldi	r24, 0x20	; 32
+ 19a:	89 83       	std	Y+1, r24	; 0x01
+ 19c:	f2 df       	rcall	.-28     	; 0x182 <MCP2517_assertCS>
+ 19e:	62 e0       	ldi	r22, 0x02	; 2
+ 1a0:	ce 01       	movw	r24, r28
+ 1a2:	01 96       	adiw	r24, 0x01	; 1
+ 1a4:	28 d3       	rcall	.+1616   	; 0x7f6 <spi_transfer_buffer>
+ 1a6:	ef df       	rcall	.-34     	; 0x186 <MCP2517_deassertCS>
+ 1a8:	0f 90       	pop	r0
+ 1aa:	0f 90       	pop	r0
+ 1ac:	df 91       	pop	r29
+ 1ae:	cf 91       	pop	r28
+ 1b0:	08 95       	ret
+
+000001b2 <MCP2517_setMode>:
+ 1b2:	cf 93       	push	r28
+ 1b4:	df 93       	push	r29
+ 1b6:	00 d0       	rcall	.+0      	; 0x1b8 <MCP2517_setMode+0x6>
+ 1b8:	1f 92       	push	r1
+ 1ba:	cd b7       	in	r28, 0x3d	; 61
+ 1bc:	de b7       	in	r29, 0x3e	; 62
+ 1be:	90 e2       	ldi	r25, 0x20	; 32
+ 1c0:	99 83       	std	Y+1, r25	; 0x01
+ 1c2:	93 e0       	ldi	r25, 0x03	; 3
+ 1c4:	9a 83       	std	Y+2, r25	; 0x02
+ 1c6:	88 60       	ori	r24, 0x08	; 8
+ 1c8:	8b 83       	std	Y+3, r24	; 0x03
+ 1ca:	db df       	rcall	.-74     	; 0x182 <MCP2517_assertCS>
+ 1cc:	63 e0       	ldi	r22, 0x03	; 3
+ 1ce:	ce 01       	movw	r24, r28
+ 1d0:	01 96       	adiw	r24, 0x01	; 1
+ 1d2:	11 d3       	rcall	.+1570   	; 0x7f6 <spi_transfer_buffer>
+ 1d4:	d8 df       	rcall	.-80     	; 0x186 <MCP2517_deassertCS>
+ 1d6:	0f 90       	pop	r0
+ 1d8:	0f 90       	pop	r0
+ 1da:	0f 90       	pop	r0
+ 1dc:	df 91       	pop	r29
+ 1de:	cf 91       	pop	r28
+ 1e0:	08 95       	ret
+
+000001e2 <MCP2517_getMode>:
+ 1e2:	cf 93       	push	r28
+ 1e4:	df 93       	push	r29
+ 1e6:	00 d0       	rcall	.+0      	; 0x1e8 <MCP2517_getMode+0x6>
+ 1e8:	1f 92       	push	r1
+ 1ea:	cd b7       	in	r28, 0x3d	; 61
+ 1ec:	de b7       	in	r29, 0x3e	; 62
+ 1ee:	19 82       	std	Y+1, r1	; 0x01
+ 1f0:	1a 82       	std	Y+2, r1	; 0x02
+ 1f2:	1b 82       	std	Y+3, r1	; 0x03
+ 1f4:	80 e3       	ldi	r24, 0x30	; 48
+ 1f6:	89 83       	std	Y+1, r24	; 0x01
+ 1f8:	82 e0       	ldi	r24, 0x02	; 2
+ 1fa:	8a 83       	std	Y+2, r24	; 0x02
+ 1fc:	c2 df       	rcall	.-124    	; 0x182 <MCP2517_assertCS>
+ 1fe:	63 e0       	ldi	r22, 0x03	; 3
+ 200:	ce 01       	movw	r24, r28
+ 202:	01 96       	adiw	r24, 0x01	; 1
+ 204:	f8 d2       	rcall	.+1520   	; 0x7f6 <spi_transfer_buffer>
+ 206:	bf df       	rcall	.-130    	; 0x186 <MCP2517_deassertCS>
+ 208:	8b 81       	ldd	r24, Y+3	; 0x03
+ 20a:	82 95       	swap	r24
+ 20c:	86 95       	lsr	r24
+ 20e:	87 70       	andi	r24, 0x07	; 7
+ 210:	0f 90       	pop	r0
+ 212:	0f 90       	pop	r0
+ 214:	0f 90       	pop	r0
+ 216:	df 91       	pop	r29
+ 218:	cf 91       	pop	r28
+ 21a:	08 95       	ret
+
+0000021c <MCP2517_init>:
+
+// Initalise the MCP2517 chip
+void MCP2517_init() {
+ 21c:	ff 92       	push	r15
+ 21e:	0f 93       	push	r16
+ 220:	1f 93       	push	r17
+ 222:	cf 93       	push	r28
+ 224:	df 93       	push	r29
+ 226:	00 d0       	rcall	.+0      	; 0x228 <MCP2517_init+0xc>
+ 228:	00 d0       	rcall	.+0      	; 0x22a <MCP2517_init+0xe>
+ 22a:	00 d0       	rcall	.+0      	; 0x22c <MCP2517_init+0x10>
+ 22c:	cd b7       	in	r28, 0x3d	; 61
+ 22e:	de b7       	in	r29, 0x3e	; 62
+	//cli(); // Disable interrupts while configuring
+	
+	// Request configuration mode
+	MCP2517_setMode(MCP2517_CONFIGURATION_MODE);
+ 230:	84 e0       	ldi	r24, 0x04	; 4
+ 232:	bf df       	rcall	.-130    	; 0x1b2 <MCP2517_setMode>
+ 234:	8f e3       	ldi	r24, 0x3F	; 63
+ 236:	9f e1       	ldi	r25, 0x1F	; 31
+ 238:	01 97       	sbiw	r24, 0x01	; 1
+ 23a:	f1 f7       	brne	.-4      	; 0x238 <MCP2517_init+0x1c>
+ 23c:	00 c0       	rjmp	.+0      	; 0x23e <MCP2517_init+0x22>
+	// Wait 2ms for chip to change modes
+	_delay_ms(2);
+	// Check that chip is now in config mode
+	uint8_t mode = MCP2517_getMode();
+ 23e:	00 00       	nop
+ 240:	d0 df       	rcall	.-96     	; 0x1e2 <MCP2517_getMode>
+	if(mode != MCP2517_CONFIGURATION_MODE) {
+ 242:	84 30       	cpi	r24, 0x04	; 4
+		//LED_A_ON;
+		uart0_transmit(MCP2517_MODE_SELECT_ERROR);
+ 244:	11 f0       	breq	.+4      	; 0x24a <MCP2517_init+0x2e>
+ 246:	83 e0       	ldi	r24, 0x03	; 3
+	}
+	//
+	// Perform software reset
+	MCP2517_reset();
+ 248:	01 d3       	rcall	.+1538   	; 0x84c <uart0_transmit>
+ 24a:	9f df       	rcall	.-194    	; 0x18a <MCP2517_reset>
+ 24c:	ef e3       	ldi	r30, 0x3F	; 63
+ 24e:	ff e1       	ldi	r31, 0x1F	; 31
+ 250:	31 97       	sbiw	r30, 0x01	; 1
+ 252:	f1 f7       	brne	.-4      	; 0x250 <MCP2517_init+0x34>
+ 254:	00 c0       	rjmp	.+0      	; 0x256 <MCP2517_init+0x3a>
+	// Let the chip change modes
+	_delay_ms(2);
+	// Check that chip has flipped
+	mode = MCP2517_getMode();
+ 256:	00 00       	nop
+	if(mode != MCP2517_CONFIGURATION_MODE) {
+ 258:	c4 df       	rcall	.-120    	; 0x1e2 <MCP2517_getMode>
+ 25a:	84 30       	cpi	r24, 0x04	; 4
+		//LED_B_ON;
+		uart0_transmit(MCP2517_MODE_SELECT_ERROR);
+ 25c:	11 f0       	breq	.+4      	; 0x262 <MCP2517_init+0x46>
+ 25e:	83 e0       	ldi	r24, 0x03	; 3
+ 260:	f5 d2       	rcall	.+1514   	; 0x84c <uart0_transmit>
+	spi_transfer_buffer(buff, 3);
+	MCP2517_deassertCS();
+}
+
+inline void MCP2517_writeReg32(const uint16_t regAddr, const uint32_t value) {
+	uint8_t buff[6] = {0};
+ 262:	8e 01       	movw	r16, r28
+ 264:	0f 5f       	subi	r16, 0xFF	; 255
+ 266:	1f 4f       	sbci	r17, 0xFF	; 255
+ 268:	86 e0       	ldi	r24, 0x06	; 6
+ 26a:	f8 01       	movw	r30, r16
+ 26c:	11 92       	st	Z+, r1
+ 26e:	8a 95       	dec	r24
+ 270:	e9 f7       	brne	.-6      	; 0x26c <MCP2517_init+0x50>
+	
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_WRITE << 4) + ((regAddr >> 8) & 0xF));
+ 272:	68 94       	set
+ 274:	ff 24       	eor	r15, r15
+ 276:	f5 f8       	bld	r15, 5
+ 278:	f9 82       	std	Y+1, r15	; 0x01
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 27a:	84 e0       	ldi	r24, 0x04	; 4
+
+// *****************************************************************************
+// Helper Functions
+// *****************************************************************************
+inline void enterWordInBufferAtIndex (const uint32_t value, uint8_t buff[], const uint8_t index) {
+	buff[index + 0] = (uint8_t) value;
+ 27c:	8a 83       	std	Y+2, r24	; 0x02
+ 27e:	8f e0       	ldi	r24, 0x0F	; 15
+	buff[index + 1] = (uint8_t) (value >> 8);
+	buff[index + 2] = (uint8_t) (value >> 16);
+ 280:	8b 83       	std	Y+3, r24	; 0x03
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_WRITE << 4) + ((regAddr >> 8) & 0xF));
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+	
+	enterWordInBufferAtIndex(value, buff, 2);
+	
+	MCP2517_assertCS();
+ 282:	8c 83       	std	Y+4, r24	; 0x04
+ 284:	8e e3       	ldi	r24, 0x3E	; 62
+	spi_transfer_buffer(buff, 6);
+ 286:	8d 83       	std	Y+5, r24	; 0x05
+ 288:	7c df       	rcall	.-264    	; 0x182 <MCP2517_assertCS>
+ 28a:	66 e0       	ldi	r22, 0x06	; 6
+	MCP2517_deassertCS();
+ 28c:	c8 01       	movw	r24, r16
+// *****************************************************************************
+inline void MCP2517_writeReg8(const uint16_t regAddr, const uint8_t value) {
+	uint8_t buff[3] = {0};
+
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_WRITE << 4) + ((regAddr >> 8) & 0xF));
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 28e:	b3 d2       	rcall	.+1382   	; 0x7f6 <spi_transfer_buffer>
+ 290:	7a df       	rcall	.-268    	; 0x186 <MCP2517_deassertCS>
+	buff[2] = value;
+ 292:	f9 82       	std	Y+1, r15	; 0x01
+ 294:	8f e5       	ldi	r24, 0x5F	; 95
+	
+	MCP2517_assertCS();
+ 296:	8a 83       	std	Y+2, r24	; 0x02
+	spi_transfer_buffer(buff, 3);
+ 298:	8f ee       	ldi	r24, 0xEF	; 239
+ 29a:	8b 83       	std	Y+3, r24	; 0x03
+ 29c:	72 df       	rcall	.-284    	; 0x182 <MCP2517_assertCS>
+	MCP2517_deassertCS();
+ 29e:	63 e0       	ldi	r22, 0x03	; 3
+ 2a0:	c8 01       	movw	r24, r16
+// SPI Write Functions
+// *****************************************************************************
+inline void MCP2517_writeReg8(const uint16_t regAddr, const uint8_t value) {
+	uint8_t buff[3] = {0};
+
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_WRITE << 4) + ((regAddr >> 8) & 0xF));
+ 2a2:	a9 d2       	rcall	.+1362   	; 0x7f6 <spi_transfer_buffer>
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 2a4:	70 df       	rcall	.-288    	; 0x186 <MCP2517_deassertCS>
+ 2a6:	f9 82       	std	Y+1, r15	; 0x01
+	buff[2] = value;
+ 2a8:	8c e5       	ldi	r24, 0x5C	; 92
+	
+	MCP2517_assertCS();
+ 2aa:	8a 83       	std	Y+2, r24	; 0x02
+	spi_transfer_buffer(buff, 3);
+ 2ac:	80 e8       	ldi	r24, 0x80	; 128
+ 2ae:	8b 83       	std	Y+3, r24	; 0x03
+ 2b0:	68 df       	rcall	.-304    	; 0x182 <MCP2517_assertCS>
+	MCP2517_deassertCS();
+ 2b2:	63 e0       	ldi	r22, 0x03	; 3
+ 2b4:	c8 01       	movw	r24, r16
+// *****************************************************************************
+inline void MCP2517_writeReg8(const uint16_t regAddr, const uint8_t value) {
+	uint8_t buff[3] = {0};
+
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_WRITE << 4) + ((regAddr >> 8) & 0xF));
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 2b6:	9f d2       	rcall	.+1342   	; 0x7f6 <spi_transfer_buffer>
+ 2b8:	66 df       	rcall	.-308    	; 0x186 <MCP2517_deassertCS>
+	buff[2] = value;
+ 2ba:	f9 82       	std	Y+1, r15	; 0x01
+	
+	MCP2517_assertCS();
+ 2bc:	8e e5       	ldi	r24, 0x5E	; 94
+ 2be:	8a 83       	std	Y+2, r24	; 0x02
+	spi_transfer_buffer(buff, 3);
+ 2c0:	80 e6       	ldi	r24, 0x60	; 96
+ 2c2:	8b 83       	std	Y+3, r24	; 0x03
+ 2c4:	5e df       	rcall	.-324    	; 0x182 <MCP2517_assertCS>
+ 2c6:	63 e0       	ldi	r22, 0x03	; 3
+	MCP2517_deassertCS();
+ 2c8:	c8 01       	movw	r24, r16
+// SPI Write Functions
+// *****************************************************************************
+inline void MCP2517_writeReg8(const uint16_t regAddr, const uint8_t value) {
+	uint8_t buff[3] = {0};
+
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_WRITE << 4) + ((regAddr >> 8) & 0xF));
+ 2ca:	95 d2       	rcall	.+1322   	; 0x7f6 <spi_transfer_buffer>
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 2cc:	5c df       	rcall	.-328    	; 0x186 <MCP2517_deassertCS>
+	buff[2] = value;
+ 2ce:	f9 82       	std	Y+1, r15	; 0x01
+ 2d0:	8b e6       	ldi	r24, 0x6B	; 107
+	
+	MCP2517_assertCS();
+ 2d2:	8a 83       	std	Y+2, r24	; 0x02
+ 2d4:	83 e0       	ldi	r24, 0x03	; 3
+	spi_transfer_buffer(buff, 3);
+ 2d6:	8b 83       	std	Y+3, r24	; 0x03
+ 2d8:	54 df       	rcall	.-344    	; 0x182 <MCP2517_assertCS>
+ 2da:	63 e0       	ldi	r22, 0x03	; 3
+	MCP2517_deassertCS();
+ 2dc:	c8 01       	movw	r24, r16
+// SPI Write Functions
+// *****************************************************************************
+inline void MCP2517_writeReg8(const uint16_t regAddr, const uint8_t value) {
+	uint8_t buff[3] = {0};
+
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_WRITE << 4) + ((regAddr >> 8) & 0xF));
+ 2de:	8b d2       	rcall	.+1302   	; 0x7f6 <spi_transfer_buffer>
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 2e0:	52 df       	rcall	.-348    	; 0x186 <MCP2517_deassertCS>
+	buff[2] = value;
+ 2e2:	81 e2       	ldi	r24, 0x21	; 33
+ 2e4:	89 83       	std	Y+1, r24	; 0x01
+	
+	MCP2517_assertCS();
+ 2e6:	80 ed       	ldi	r24, 0xD0	; 208
+ 2e8:	8a 83       	std	Y+2, r24	; 0x02
+	spi_transfer_buffer(buff, 3);
+ 2ea:	82 e8       	ldi	r24, 0x82	; 130
+ 2ec:	8b 83       	std	Y+3, r24	; 0x03
+ 2ee:	49 df       	rcall	.-366    	; 0x182 <MCP2517_assertCS>
+	MCP2517_deassertCS();
+ 2f0:	63 e0       	ldi	r22, 0x03	; 3
+ 2f2:	c8 01       	movw	r24, r16
+// SPI Write Functions
+// *****************************************************************************
+inline void MCP2517_writeReg8(const uint16_t regAddr, const uint8_t value) {
+	uint8_t buff[3] = {0};
+
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_WRITE << 4) + ((regAddr >> 8) & 0xF));
+ 2f4:	80 d2       	rcall	.+1280   	; 0x7f6 <spi_transfer_buffer>
+ 2f6:	47 df       	rcall	.-370    	; 0x186 <MCP2517_deassertCS>
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 2f8:	8e e2       	ldi	r24, 0x2E	; 46
+ 2fa:	89 83       	std	Y+1, r24	; 0x01
+	buff[2] = value;
+ 2fc:	8c e0       	ldi	r24, 0x0C	; 12
+ 2fe:	8a 83       	std	Y+2, r24	; 0x02
+	
+	MCP2517_assertCS();
+ 300:	81 e0       	ldi	r24, 0x01	; 1
+ 302:	8b 83       	std	Y+3, r24	; 0x03
+	spi_transfer_buffer(buff, 3);
+ 304:	3e df       	rcall	.-388    	; 0x182 <MCP2517_assertCS>
+ 306:	63 e0       	ldi	r22, 0x03	; 3
+ 308:	c8 01       	movw	r24, r16
+ 30a:	75 d2       	rcall	.+1258   	; 0x7f6 <spi_transfer_buffer>
+	MCP2517_deassertCS();
+ 30c:	3c df       	rcall	.-392    	; 0x186 <MCP2517_deassertCS>
+ 30e:	86 e0       	ldi	r24, 0x06	; 6
+	// Enable ECC
+	d = 0x01;
+	MCP2517_writeReg8(MCP2517_REG_ADDR_ECCCON, d);
+	
+	// Configuration Done: Select CAN 2.0B Mode - For testing use external loopback
+	MCP2517_setMode(MCP2517_CLASSIC_MODE);
+ 310:	50 df       	rcall	.-352    	; 0x1b2 <MCP2517_setMode>
+ 312:	8f e3       	ldi	r24, 0x3F	; 63
+ 314:	9f e1       	ldi	r25, 0x1F	; 31
+ 316:	01 97       	sbiw	r24, 0x01	; 1
+ 318:	f1 f7       	brne	.-4      	; 0x316 <MCP2517_init+0xfa>
+ 31a:	00 c0       	rjmp	.+0      	; 0x31c <MCP2517_init+0x100>
+ 31c:	00 00       	nop
+ 31e:	61 df       	rcall	.-318    	; 0x1e2 <MCP2517_getMode>
+ 320:	26 96       	adiw	r28, 0x06	; 6
+	_delay_ms(2);
+	mode = MCP2517_getMode();
+ 322:	0f b6       	in	r0, 0x3f	; 63
+ 324:	f8 94       	cli
+	////
+	//
+	//
+	//
+	////sei(); // Re-enable interrupts
+}
+ 326:	de bf       	out	0x3e, r29	; 62
+ 328:	0f be       	out	0x3f, r0	; 63
+ 32a:	cd bf       	out	0x3d, r28	; 61
+ 32c:	df 91       	pop	r29
+ 32e:	cf 91       	pop	r28
+ 330:	1f 91       	pop	r17
+ 332:	0f 91       	pop	r16
+ 334:	ff 90       	pop	r15
+ 336:	08 95       	ret
+
+00000338 <MCP2517_receiveFifoStatus>:
+ 338:	0f 93       	push	r16
+ 33a:	1f 93       	push	r17
+ 33c:	cf 93       	push	r28
+
+
+// *****************************************************************************
+// MCP2517 FIFO Status Functions
+// *****************************************************************************
+uint8_t MCP2517_receiveFifoStatus(MCP2517_FIFO_CHANNEL channel, MCP2517_RX_FIFO_STATUS *flags) {
+ 33e:	df 93       	push	r29
+ 340:	00 d0       	rcall	.+0      	; 0x342 <MCP2517_receiveFifoStatus+0xa>
+ 342:	1f 92       	push	r1
+ 344:	cd b7       	in	r28, 0x3d	; 61
+ 346:	de b7       	in	r29, 0x3e	; 62
+ 348:	8b 01       	movw	r16, r22
+	uint8_t status = MCP2517_readReg8(MCP2517_REG_ADDR_C1FIFOSTA + (channel * MCP2517_C1FIFO_OFFSET));
+ 34a:	90 e0       	ldi	r25, 0x00	; 0
+ 34c:	9c 01       	movw	r18, r24
+ 34e:	22 0f       	add	r18, r18
+ 350:	33 1f       	adc	r19, r19
+ 352:	82 0f       	add	r24, r18
+ 354:	93 1f       	adc	r25, r19
+ 356:	88 0f       	add	r24, r24
+ 358:	99 1f       	adc	r25, r25
+ 35a:	88 0f       	add	r24, r24
+ 35c:	99 1f       	adc	r25, r25
+ 35e:	8c 5a       	subi	r24, 0xAC	; 172
+ 360:	9f 4f       	sbci	r25, 0xFF	; 255
+
+// *****************************************************************************
+// SPI Read Functions
+// *****************************************************************************
+inline uint8_t MCP2517_readReg8(const uint16_t regAddr) {
+	uint8_t buff[3] = {0};
+ 362:	19 82       	std	Y+1, r1	; 0x01
+ 364:	1a 82       	std	Y+2, r1	; 0x02
+ 366:	1b 82       	std	Y+3, r1	; 0x03
+
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_READ << 4) + ((regAddr >> 8) & 0xF));
+ 368:	9f 70       	andi	r25, 0x0F	; 15
+ 36a:	90 5d       	subi	r25, 0xD0	; 208
+ 36c:	99 83       	std	Y+1, r25	; 0x01
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 36e:	8a 83       	std	Y+2, r24	; 0x02
+	buff[2] = 0x00;
+	
+	MCP2517_assertCS();
+ 370:	08 df       	rcall	.-496    	; 0x182 <MCP2517_assertCS>
+	spi_transfer_buffer(buff, 3);
+ 372:	63 e0       	ldi	r22, 0x03	; 3
+ 374:	ce 01       	movw	r24, r28
+ 376:	01 96       	adiw	r24, 0x01	; 1
+	MCP2517_deassertCS();
+ 378:	3e d2       	rcall	.+1148   	; 0x7f6 <spi_transfer_buffer>
+ 37a:	05 df       	rcall	.-502    	; 0x186 <MCP2517_deassertCS>
+	
+	return buff[2];
+ 37c:	8b 81       	ldd	r24, Y+3	; 0x03
+// *****************************************************************************
+uint8_t MCP2517_receiveFifoStatus(MCP2517_FIFO_CHANNEL channel, MCP2517_RX_FIFO_STATUS *flags) {
+	uint8_t status = MCP2517_readReg8(MCP2517_REG_ADDR_C1FIFOSTA + (channel * MCP2517_C1FIFO_OFFSET));
+	
+	// Update channel status
+	*flags = (MCP2517_RX_FIFO_STATUS) ((status) & MCP2517_RX_FIFO_ALL_STATUS);
+ 37e:	98 2f       	mov	r25, r24
+ 380:	9f 70       	andi	r25, 0x0F	; 15
+ 382:	f8 01       	movw	r30, r16
+ 384:	90 83       	st	Z, r25
+	
+	return status;
+}
+ 386:	0f 90       	pop	r0
+ 388:	0f 90       	pop	r0
+ 38a:	0f 90       	pop	r0
+ 38c:	df 91       	pop	r29
+ 38e:	cf 91       	pop	r28
+ 390:	1f 91       	pop	r17
+ 392:	0f 91       	pop	r16
+ 394:	08 95       	ret
+
+00000396 <MCP2517_transmitFifoStatus>:
+
+
+uint8_t MCP2517_transmitFifoStatus(MCP2517_FIFO_CHANNEL channel, MCP2517_TX_FIFO_STATUS *flags) {
+ 396:	0f 93       	push	r16
+ 398:	1f 93       	push	r17
+ 39a:	cf 93       	push	r28
+ 39c:	df 93       	push	r29
+ 39e:	00 d0       	rcall	.+0      	; 0x3a0 <MCP2517_transmitFifoStatus+0xa>
+ 3a0:	1f 92       	push	r1
+ 3a2:	cd b7       	in	r28, 0x3d	; 61
+ 3a4:	de b7       	in	r29, 0x3e	; 62
+ 3a6:	8b 01       	movw	r16, r22
+	uint8_t status = MCP2517_readReg8(MCP2517_REG_ADDR_C1FIFOSTA + (channel * MCP2517_C1FIFO_OFFSET));
+ 3a8:	90 e0       	ldi	r25, 0x00	; 0
+ 3aa:	9c 01       	movw	r18, r24
+ 3ac:	22 0f       	add	r18, r18
+ 3ae:	33 1f       	adc	r19, r19
+ 3b0:	82 0f       	add	r24, r18
+ 3b2:	93 1f       	adc	r25, r19
+ 3b4:	88 0f       	add	r24, r24
+ 3b6:	99 1f       	adc	r25, r25
+ 3b8:	88 0f       	add	r24, r24
+ 3ba:	99 1f       	adc	r25, r25
+ 3bc:	8c 5a       	subi	r24, 0xAC	; 172
+ 3be:	9f 4f       	sbci	r25, 0xFF	; 255
+
+// *****************************************************************************
+// SPI Read Functions
+// *****************************************************************************
+inline uint8_t MCP2517_readReg8(const uint16_t regAddr) {
+	uint8_t buff[3] = {0};
+ 3c0:	19 82       	std	Y+1, r1	; 0x01
+ 3c2:	1a 82       	std	Y+2, r1	; 0x02
+ 3c4:	1b 82       	std	Y+3, r1	; 0x03
+
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_READ << 4) + ((regAddr >> 8) & 0xF));
+ 3c6:	9f 70       	andi	r25, 0x0F	; 15
+ 3c8:	90 5d       	subi	r25, 0xD0	; 208
+ 3ca:	99 83       	std	Y+1, r25	; 0x01
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 3cc:	8a 83       	std	Y+2, r24	; 0x02
+	buff[2] = 0x00;
+	
+	MCP2517_assertCS();
+ 3ce:	d9 de       	rcall	.-590    	; 0x182 <MCP2517_assertCS>
+	spi_transfer_buffer(buff, 3);
+ 3d0:	63 e0       	ldi	r22, 0x03	; 3
+ 3d2:	ce 01       	movw	r24, r28
+ 3d4:	01 96       	adiw	r24, 0x01	; 1
+	MCP2517_deassertCS();
+ 3d6:	0f d2       	rcall	.+1054   	; 0x7f6 <spi_transfer_buffer>
+ 3d8:	d6 de       	rcall	.-596    	; 0x186 <MCP2517_deassertCS>
+	
+	return buff[2];
+ 3da:	8b 81       	ldd	r24, Y+3	; 0x03
+
+uint8_t MCP2517_transmitFifoStatus(MCP2517_FIFO_CHANNEL channel, MCP2517_TX_FIFO_STATUS *flags) {
+	uint8_t status = MCP2517_readReg8(MCP2517_REG_ADDR_C1FIFOSTA + (channel * MCP2517_C1FIFO_OFFSET));
+	
+	// Update channel status
+	*flags = (MCP2517_TX_FIFO_STATUS) ((status) & MCP2517_TX_FIFO_ALL_STATUS);
+ 3dc:	98 2f       	mov	r25, r24
+ 3de:	97 71       	andi	r25, 0x17	; 23
+ 3e0:	f8 01       	movw	r30, r16
+ 3e2:	90 83       	st	Z, r25
+	
+	return status;
+}
+ 3e4:	0f 90       	pop	r0
+ 3e6:	0f 90       	pop	r0
+ 3e8:	0f 90       	pop	r0
+ 3ea:	df 91       	pop	r29
+ 3ec:	cf 91       	pop	r28
+ 3ee:	1f 91       	pop	r17
+ 3f0:	0f 91       	pop	r16
+ 3f2:	08 95       	ret
+
+000003f4 <MCP2517_readMsgReceive>:
+		_delay_ms(100);
+		//LED_B_OFF;
+	}
+}
+
+void MCP2517_readMsgReceive(uint32_t *receiveID, uint8_t *numDataBytes, uint8_t *data, MCP2517_RX_MSG_OBJ *rxObj) {
+ 3f4:	6f 92       	push	r6
+ 3f6:	7f 92       	push	r7
+ 3f8:	8f 92       	push	r8
+ 3fa:	9f 92       	push	r9
+ 3fc:	af 92       	push	r10
+ 3fe:	bf 92       	push	r11
+ 400:	cf 92       	push	r12
+ 402:	df 92       	push	r13
+ 404:	ef 92       	push	r14
+ 406:	ff 92       	push	r15
+ 408:	0f 93       	push	r16
+ 40a:	1f 93       	push	r17
+ 40c:	cf 93       	push	r28
+ 40e:	df 93       	push	r29
+ 410:	cd b7       	in	r28, 0x3d	; 61
+ 412:	de b7       	in	r29, 0x3e	; 62
+ 414:	6b 97       	sbiw	r28, 0x1b	; 27
+ 416:	0f b6       	in	r0, 0x3f	; 63
+ 418:	f8 94       	cli
+ 41a:	de bf       	out	0x3e, r29	; 62
+ 41c:	0f be       	out	0x3f, r0	; 63
+ 41e:	cd bf       	out	0x3d, r28	; 61
+ 420:	3c 01       	movw	r6, r24
+ 422:	4b 01       	movw	r8, r22
+ 424:	a4 2e       	mov	r10, r20
+ 426:	b5 2e       	mov	r11, r21
+ 428:	89 01       	movw	r16, r18
+	
+	uint8_t buff[MCP2517_MAX_MSG_SIZE] = {0}; // Max size of transmit message
+ 42a:	ce 01       	movw	r24, r28
+ 42c:	01 96       	adiw	r24, 0x01	; 1
+ 42e:	7c 01       	movw	r14, r24
+ 430:	85 e1       	ldi	r24, 0x15	; 21
+ 432:	f7 01       	movw	r30, r14
+ 434:	11 92       	st	Z+, r1
+ 436:	8a 95       	dec	r24
+ 438:	e9 f7       	brne	.-6      	; 0x434 <__LOCK_REGION_LENGTH__+0x34>
+	return buff[2];
+}
+
+// change to uint8_t
+inline uint32_t MCP2517_readReg32(const uint16_t regAddr) {
+	uint8_t buff[6] = {0};
+ 43a:	6e 01       	movw	r12, r28
+ 43c:	f6 e1       	ldi	r31, 0x16	; 22
+ 43e:	cf 0e       	add	r12, r31
+ 440:	d1 1c       	adc	r13, r1
+ 442:	86 e0       	ldi	r24, 0x06	; 6
+ 444:	f6 01       	movw	r30, r12
+ 446:	11 92       	st	Z+, r1
+ 448:	8a 95       	dec	r24
+ 44a:	e9 f7       	brne	.-6      	; 0x446 <__LOCK_REGION_LENGTH__+0x46>
+
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_READ << 4) + ((regAddr >> 8) & 0xF));
+ 44c:	80 e3       	ldi	r24, 0x30	; 48
+ 44e:	8e 8b       	std	Y+22, r24	; 0x16
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 450:	80 e7       	ldi	r24, 0x70	; 112
+ 452:	8f 8b       	std	Y+23, r24	; 0x17
+	buff[2] = 0x00;
+
+	MCP2517_assertCS();
+ 454:	96 de       	rcall	.-724    	; 0x182 <MCP2517_assertCS>
+	spi_transfer_buffer(buff, 6);
+ 456:	66 e0       	ldi	r22, 0x06	; 6
+ 458:	c6 01       	movw	r24, r12
+	MCP2517_deassertCS();
+ 45a:	cd d1       	rcall	.+922    	; 0x7f6 <spi_transfer_buffer>
+ 45c:	94 de       	rcall	.-728    	; 0x186 <MCP2517_deassertCS>
+	buff[index + 2] = (uint8_t) (value >> 16);
+	buff[index + 3] = (uint8_t) (value >> 24);
+}
+
+inline uint32_t wordFromBufferAtIndex (uint8_t buff[], const uint8_t index) {
+	uint32_t result = (uint32_t) buff[index + 0];
+ 45e:	28 8d       	ldd	r18, Y+24	; 0x18
+	result |= ((uint32_t) buff[index + 1]) << 8;
+	result |= ((uint32_t) buff[index + 2]) << 16;
+ 460:	39 8d       	ldd	r19, Y+25	; 0x19
+ 462:	8a 8d       	ldd	r24, Y+26	; 0x1a
+ 464:	90 e0       	ldi	r25, 0x00	; 0
+ 466:	a0 e0       	ldi	r26, 0x00	; 0
+ 468:	b0 e0       	ldi	r27, 0x00	; 0
+ 46a:	dc 01       	movw	r26, r24
+ 46c:	99 27       	eor	r25, r25
+ 46e:	88 27       	eor	r24, r24
+ 470:	93 2b       	or	r25, r19
+ 472:	82 2b       	or	r24, r18
+void MCP2517_readMsgReceive(uint32_t *receiveID, uint8_t *numDataBytes, uint8_t *data, MCP2517_RX_MSG_OBJ *rxObj) {
+	
+	uint8_t buff[MCP2517_MAX_MSG_SIZE] = {0}; // Max size of transmit message
+	
+	// Write instruction
+	const uint16_t regAddr = MCP2517_RAM_ADDR_START + MCP2517_readReg32(MCP2517_REG_ADDR_C1FIFOUA + (MCP2517_RX_FIFO * MCP2517_C1FIFO_OFFSET));
+ 474:	9c 5f       	subi	r25, 0xFC	; 252
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_READ << 4) + ((regAddr >> 8) & 0xF));
+ 476:	9f 70       	andi	r25, 0x0F	; 15
+ 478:	90 5d       	subi	r25, 0xD0	; 208
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 47a:	99 83       	std	Y+1, r25	; 0x01
+	
+	// SPI Transfer
+	MCP2517_assertCS();
+ 47c:	8a 83       	std	Y+2, r24	; 0x02
+	spi_transfer_buffer(buff, sizeof(buff));
+ 47e:	81 de       	rcall	.-766    	; 0x182 <MCP2517_assertCS>
+ 480:	65 e1       	ldi	r22, 0x15	; 21
+ 482:	c7 01       	movw	r24, r14
+ 484:	b8 d1       	rcall	.+880    	; 0x7f6 <spi_transfer_buffer>
+	MCP2517_deassertCS();
+ 486:	7f de       	rcall	.-770    	; 0x186 <MCP2517_deassertCS>
+ 488:	3b 81       	ldd	r19, Y+3	; 0x03
+	
+	// Get frame ID and Control bits
+	rxObj->MCP2517_word[0] = 0;
+	rxObj->MCP2517_word[1] = 0;
+	
+	rxObj->MCP2517_byte[0] = buff[2];
+ 48a:	f8 01       	movw	r30, r16
+ 48c:	30 83       	st	Z, r19
+ 48e:	2c 81       	ldd	r18, Y+4	; 0x04
+	rxObj->MCP2517_byte[1] = buff[3];
+ 490:	21 83       	std	Z+1, r18	; 0x01
+ 492:	8d 81       	ldd	r24, Y+5	; 0x05
+	rxObj->MCP2517_byte[2] = buff[4];
+ 494:	82 83       	std	Z+2, r24	; 0x02
+ 496:	8e 81       	ldd	r24, Y+6	; 0x06
+	rxObj->MCP2517_byte[3] = buff[5];
+ 498:	83 83       	std	Z+3, r24	; 0x03
+ 49a:	8f 81       	ldd	r24, Y+7	; 0x07
+	
+	rxObj->MCP2517_byte[4] = buff[6];
+ 49c:	84 83       	std	Z+4, r24	; 0x04
+ 49e:	88 85       	ldd	r24, Y+8	; 0x08
+	rxObj->MCP2517_byte[5] = buff[7];
+ 4a0:	85 83       	std	Z+5, r24	; 0x05
+ 4a2:	89 85       	ldd	r24, Y+9	; 0x09
+	rxObj->MCP2517_byte[6] = buff[8];
+ 4a4:	86 83       	std	Z+6, r24	; 0x06
+ 4a6:	8a 85       	ldd	r24, Y+10	; 0x0a
+	rxObj->MCP2517_byte[7] = buff[9];
+ 4a8:	87 83       	std	Z+7, r24	; 0x07
+ 4aa:	83 2f       	mov	r24, r19
+	
+	// Get message ID
+	*receiveID = (uint32_t) (rxObj->MCP2517_bF.MCP2517_id.MCP2517_SID);
+ 4ac:	92 2f       	mov	r25, r18
+ 4ae:	97 70       	andi	r25, 0x07	; 7
+ 4b0:	a0 e0       	ldi	r26, 0x00	; 0
+ 4b2:	b0 e0       	ldi	r27, 0x00	; 0
+ 4b4:	f3 01       	movw	r30, r6
+ 4b6:	80 83       	st	Z, r24
+ 4b8:	91 83       	std	Z+1, r25	; 0x01
+ 4ba:	a2 83       	std	Z+2, r26	; 0x02
+ 4bc:	b3 83       	std	Z+3, r27	; 0x03
+ 4be:	f8 01       	movw	r30, r16
+	
+	// Get the number of data bytes (size of payload)
+	*numDataBytes = (uint8_t) (rxObj->MCP2517_byte[4] & 0xF);
+ 4c0:	84 81       	ldd	r24, Z+4	; 0x04
+ 4c2:	8f 70       	andi	r24, 0x0F	; 15
+ 4c4:	f4 01       	movw	r30, r8
+ 4c6:	80 83       	st	Z, r24
+ 4c8:	f8 01       	movw	r30, r16
+
+	rxObj->MCP2517_word[2] = 0;
+ 4ca:	10 86       	std	Z+8, r1	; 0x08
+ 4cc:	11 86       	std	Z+9, r1	; 0x09
+ 4ce:	12 86       	std	Z+10, r1	; 0x0a
+ 4d0:	13 86       	std	Z+11, r1	; 0x0b
+ 4d2:	fe 01       	movw	r30, r28
+ 4d4:	3b 96       	adiw	r30, 0x0b	; 11
+ 4d6:	aa 2d       	mov	r26, r10
+ 4d8:	bb 2d       	mov	r27, r11
+ 4da:	9e 01       	movw	r18, r28
+ 4dc:	2d 5e       	subi	r18, 0xED	; 237
+ 4de:	3f 4f       	sbci	r19, 0xFF	; 255
+ 4e0:	81 91       	ld	r24, Z+
+	
+	for(uint8_t i = 0; i < 8; i++) {
+		data[i] = buff[i + 10];
+ 4e2:	8d 93       	st	X+, r24
+ 4e4:	e2 17       	cp	r30, r18
+	// Get the number of data bytes (size of payload)
+	*numDataBytes = (uint8_t) (rxObj->MCP2517_byte[4] & 0xF);
+
+	rxObj->MCP2517_word[2] = 0;
+	
+	for(uint8_t i = 0; i < 8; i++) {
+ 4e6:	f3 07       	cpc	r31, r19
+ 4e8:	d9 f7       	brne	.-10     	; 0x4e0 <__LOCK_REGION_LENGTH__+0xe0>
+ 4ea:	80 e2       	ldi	r24, 0x20	; 32
+// SPI Write Functions
+// *****************************************************************************
+inline void MCP2517_writeReg8(const uint16_t regAddr, const uint8_t value) {
+	uint8_t buff[3] = {0};
+
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_WRITE << 4) + ((regAddr >> 8) & 0xF));
+ 4ec:	8e 8b       	std	Y+22, r24	; 0x16
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 4ee:	88 e6       	ldi	r24, 0x68	; 104
+ 4f0:	8f 8b       	std	Y+23, r24	; 0x17
+	buff[2] = value;
+ 4f2:	81 e0       	ldi	r24, 0x01	; 1
+	
+	MCP2517_assertCS();
+ 4f4:	88 8f       	std	Y+24, r24	; 0x18
+ 4f6:	45 de       	rcall	.-886    	; 0x182 <MCP2517_assertCS>
+	spi_transfer_buffer(buff, 3);
+ 4f8:	63 e0       	ldi	r22, 0x03	; 3
+ 4fa:	ce 01       	movw	r24, r28
+ 4fc:	46 96       	adiw	r24, 0x16	; 22
+ 4fe:	7b d1       	rcall	.+758    	; 0x7f6 <spi_transfer_buffer>
+ 500:	42 de       	rcall	.-892    	; 0x186 <MCP2517_deassertCS>
+	MCP2517_deassertCS();
+ 502:	6b 96       	adiw	r28, 0x1b	; 27
+ 504:	0f b6       	in	r0, 0x3f	; 63
+	}
+	
+	// Increment FIFO buffer - set UNIC bit - Update channel
+	const uint8_t d = 1 << 0;
+	MCP2517_writeReg8(MCP2517_REG_ADDR_C1FIFOCON + (MCP2517_RX_FIFO * MCP2517_C1FIFO_OFFSET), d);
+}
+ 506:	f8 94       	cli
+ 508:	de bf       	out	0x3e, r29	; 62
+ 50a:	0f be       	out	0x3f, r0	; 63
+ 50c:	cd bf       	out	0x3d, r28	; 61
+ 50e:	df 91       	pop	r29
+ 510:	cf 91       	pop	r28
+ 512:	1f 91       	pop	r17
+ 514:	0f 91       	pop	r16
+ 516:	ff 90       	pop	r15
+ 518:	ef 90       	pop	r14
+ 51a:	df 90       	pop	r13
+ 51c:	cf 90       	pop	r12
+ 51e:	bf 90       	pop	r11
+ 520:	af 90       	pop	r10
+ 522:	9f 90       	pop	r9
+ 524:	8f 90       	pop	r8
+ 526:	7f 90       	pop	r7
+ 528:	6f 90       	pop	r6
+ 52a:	08 95       	ret
+
+0000052c <MCP2517_recieveMessage>:
+ 52c:	cf 92       	push	r12
+ 52e:	df 92       	push	r13
+
+
+// *****************************************************************************
+// MCP2517 Receive Functions
+// *****************************************************************************
+void MCP2517_recieveMessage(uint32_t *receiveID, uint8_t *numDataBytes, uint8_t *data) {
+ 530:	ef 92       	push	r14
+ 532:	ff 92       	push	r15
+ 534:	0f 93       	push	r16
+ 536:	1f 93       	push	r17
+ 538:	cf 93       	push	r28
+ 53a:	df 93       	push	r29
+ 53c:	cd b7       	in	r28, 0x3d	; 61
+ 53e:	de b7       	in	r29, 0x3e	; 62
+ 540:	2d 97       	sbiw	r28, 0x0d	; 13
+ 542:	0f b6       	in	r0, 0x3f	; 63
+ 544:	f8 94       	cli
+ 546:	de bf       	out	0x3e, r29	; 62
+ 548:	0f be       	out	0x3f, r0	; 63
+ 54a:	cd bf       	out	0x3d, r28	; 61
+ 54c:	8c 01       	movw	r16, r24
+ 54e:	7b 01       	movw	r14, r22
+ 550:	6a 01       	movw	r12, r20
+	MCP2517_RX_MSG_OBJ rxObj;
+	MCP2517_RX_FIFO_STATUS rxFlags;
+	
+	// Check that FIFO is not empty
+	MCP2517_receiveFifoStatus(MCP2517_RX_FIFO, &rxFlags);
+ 552:	be 01       	movw	r22, r28
+ 554:	63 5f       	subi	r22, 0xF3	; 243
+ 556:	7f 4f       	sbci	r23, 0xFF	; 255
+ 558:	82 e0       	ldi	r24, 0x02	; 2
+ 55a:	ee de       	rcall	.-548    	; 0x338 <MCP2517_receiveFifoStatus>
+	
+	if (rxFlags & MCP2517_RX_FIFO_NOT_EMPTY_STATUS) {
+ 55c:	8d 85       	ldd	r24, Y+13	; 0x0d
+ 55e:	80 ff       	sbrs	r24, 0
+ 560:	10 c0       	rjmp	.+32     	; 0x582 <MCP2517_recieveMessage+0x56>
+		///LED_B_ON;
+		// Read message
+		MCP2517_readMsgReceive(receiveID, numDataBytes, data, &rxObj);
+ 562:	9e 01       	movw	r18, r28
+ 564:	2f 5f       	subi	r18, 0xFF	; 255
+ 566:	3f 4f       	sbci	r19, 0xFF	; 255
+ 568:	a6 01       	movw	r20, r12
+ 56a:	b7 01       	movw	r22, r14
+ 56c:	c8 01       	movw	r24, r16
+ 56e:	42 df       	rcall	.-380    	; 0x3f4 <MCP2517_readMsgReceive>
+ 570:	2f ef       	ldi	r18, 0xFF	; 255
+ 572:	81 ee       	ldi	r24, 0xE1	; 225
+ 574:	94 e0       	ldi	r25, 0x04	; 4
+ 576:	21 50       	subi	r18, 0x01	; 1
+ 578:	80 40       	sbci	r24, 0x00	; 0
+ 57a:	90 40       	sbci	r25, 0x00	; 0
+ 57c:	e1 f7       	brne	.-8      	; 0x576 <MCP2517_recieveMessage+0x4a>
+ 57e:	00 c0       	rjmp	.+0      	; 0x580 <MCP2517_recieveMessage+0x54>
+ 580:	00 00       	nop
+		_delay_ms(100);
+		//LED_B_OFF;
+	}
+}
+ 582:	2d 96       	adiw	r28, 0x0d	; 13
+ 584:	0f b6       	in	r0, 0x3f	; 63
+ 586:	f8 94       	cli
+ 588:	de bf       	out	0x3e, r29	; 62
+ 58a:	0f be       	out	0x3f, r0	; 63
+ 58c:	cd bf       	out	0x3d, r28	; 61
+ 58e:	df 91       	pop	r29
+ 590:	cf 91       	pop	r28
+ 592:	1f 91       	pop	r17
+ 594:	0f 91       	pop	r16
+ 596:	ff 90       	pop	r15
+ 598:	ef 90       	pop	r14
+ 59a:	df 90       	pop	r13
+ 59c:	cf 90       	pop	r12
+ 59e:	08 95       	ret
+
+000005a0 <MCP2517_loadMsgTXFifo>:
+	
+	return MCP2517_NO_ERROR;
+}
+
+
+void MCP2517_loadMsgTXFifo(MCP2517_TX_MSG_OBJ *txObj, uint8_t *payload, uint8_t numDataBytes) {
+ 5a0:	af 92       	push	r10
+ 5a2:	bf 92       	push	r11
+ 5a4:	df 92       	push	r13
+ 5a6:	ef 92       	push	r14
+ 5a8:	ff 92       	push	r15
+ 5aa:	0f 93       	push	r16
+ 5ac:	1f 93       	push	r17
+ 5ae:	cf 93       	push	r28
+ 5b0:	df 93       	push	r29
+ 5b2:	cd b7       	in	r28, 0x3d	; 61
+ 5b4:	de b7       	in	r29, 0x3e	; 62
+ 5b6:	6b 97       	sbiw	r28, 0x1b	; 27
+ 5b8:	0f b6       	in	r0, 0x3f	; 63
+ 5ba:	f8 94       	cli
+ 5bc:	de bf       	out	0x3e, r29	; 62
+ 5be:	0f be       	out	0x3f, r0	; 63
+ 5c0:	cd bf       	out	0x3d, r28	; 61
+ 5c2:	8c 01       	movw	r16, r24
+ 5c4:	d6 2e       	mov	r13, r22
+ 5c6:	e7 2e       	mov	r14, r23
+ 5c8:	f4 2e       	mov	r15, r20
+	
+	uint8_t buff[MCP2517_MAX_MSG_SIZE] = {0}; // Max number of transmit bytes
+ 5ca:	fe 01       	movw	r30, r28
+ 5cc:	31 96       	adiw	r30, 0x01	; 1
+ 5ce:	85 e1       	ldi	r24, 0x15	; 21
+ 5d0:	df 01       	movw	r26, r30
+ 5d2:	1d 92       	st	X+, r1
+ 5d4:	8a 95       	dec	r24
+ 5d6:	e9 f7       	brne	.-6      	; 0x5d2 <MCP2517_loadMsgTXFifo+0x32>
+	// Write only multiples of 4 to RAM
+	uint8_t i;
+	uint16_t n = 0;
+	uint8_t j = 0;
+
+	if (numDataBytes % 4) { // Largest value may be 3, lowest 0 - 1
+ 5d8:	84 2f       	mov	r24, r20
+ 5da:	83 70       	andi	r24, 0x03	; 3
+ 5dc:	b9 f0       	breq	.+46     	; 0x60c <MCP2517_loadMsgTXFifo+0x6c>
+		// Add bytes
+		n = 4 - (numDataBytes % 4);
+ 5de:	44 e0       	ldi	r20, 0x04	; 4
+ 5e0:	50 e0       	ldi	r21, 0x00	; 0
+ 5e2:	48 1b       	sub	r20, r24
+ 5e4:	51 09       	sbc	r21, r1
+		i = numDataBytes + 8;
+ 5e6:	98 e0       	ldi	r25, 0x08	; 8
+ 5e8:	9f 0d       	add	r25, r15
+		for (j = 0; j < n; j++) {
+ 5ea:	41 15       	cp	r20, r1
+ 5ec:	51 05       	cpc	r21, r1
+ 5ee:	71 f0       	breq	.+28     	; 0x60c <MCP2517_loadMsgTXFifo+0x6c>
+ 5f0:	80 e0       	ldi	r24, 0x00	; 0
+			buff[i + 8 + j] = 0;
+ 5f2:	bf 01       	movw	r22, r30
+ 5f4:	69 0f       	add	r22, r25
+ 5f6:	71 1d       	adc	r23, r1
+ 5f8:	fb 01       	movw	r30, r22
+ 5fa:	e8 0f       	add	r30, r24
+ 5fc:	f1 1d       	adc	r31, r1
+ 5fe:	10 86       	std	Z+8, r1	; 0x08
+
+	if (numDataBytes % 4) { // Largest value may be 3, lowest 0 - 1
+		// Add bytes
+		n = 4 - (numDataBytes % 4);
+		i = numDataBytes + 8;
+		for (j = 0; j < n; j++) {
+ 600:	8f 5f       	subi	r24, 0xFF	; 255
+ 602:	28 2f       	mov	r18, r24
+ 604:	30 e0       	ldi	r19, 0x00	; 0
+ 606:	24 17       	cp	r18, r20
+ 608:	35 07       	cpc	r19, r21
+ 60a:	b0 f3       	brcs	.-20     	; 0x5f8 <MCP2517_loadMsgTXFifo+0x58>
+	return buff[2];
+}
+
+// change to uint8_t
+inline uint32_t MCP2517_readReg32(const uint16_t regAddr) {
+	uint8_t buff[6] = {0};
+ 60c:	5e 01       	movw	r10, r28
+ 60e:	b6 e1       	ldi	r27, 0x16	; 22
+ 610:	ab 0e       	add	r10, r27
+ 612:	b1 1c       	adc	r11, r1
+ 614:	86 e0       	ldi	r24, 0x06	; 6
+ 616:	f5 01       	movw	r30, r10
+ 618:	11 92       	st	Z+, r1
+ 61a:	8a 95       	dec	r24
+ 61c:	e9 f7       	brne	.-6      	; 0x618 <MCP2517_loadMsgTXFifo+0x78>
+
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_READ << 4) + ((regAddr >> 8) & 0xF));
+ 61e:	80 e3       	ldi	r24, 0x30	; 48
+ 620:	8e 8b       	std	Y+22, r24	; 0x16
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 622:	84 e6       	ldi	r24, 0x64	; 100
+ 624:	8f 8b       	std	Y+23, r24	; 0x17
+	buff[2] = 0x00;
+
+	MCP2517_assertCS();
+ 626:	ad dd       	rcall	.-1190   	; 0x182 <MCP2517_assertCS>
+	spi_transfer_buffer(buff, 6);
+ 628:	66 e0       	ldi	r22, 0x06	; 6
+ 62a:	c5 01       	movw	r24, r10
+	MCP2517_deassertCS();
+ 62c:	e4 d0       	rcall	.+456    	; 0x7f6 <spi_transfer_buffer>
+ 62e:	ab dd       	rcall	.-1194   	; 0x186 <MCP2517_deassertCS>
+	buff[index + 2] = (uint8_t) (value >> 16);
+	buff[index + 3] = (uint8_t) (value >> 24);
+}
+
+inline uint32_t wordFromBufferAtIndex (uint8_t buff[], const uint8_t index) {
+	uint32_t result = (uint32_t) buff[index + 0];
+ 630:	28 8d       	ldd	r18, Y+24	; 0x18
+	result |= ((uint32_t) buff[index + 1]) << 8;
+	result |= ((uint32_t) buff[index + 2]) << 16;
+ 632:	39 8d       	ldd	r19, Y+25	; 0x19
+ 634:	8a 8d       	ldd	r24, Y+26	; 0x1a
+ 636:	90 e0       	ldi	r25, 0x00	; 0
+ 638:	a0 e0       	ldi	r26, 0x00	; 0
+ 63a:	b0 e0       	ldi	r27, 0x00	; 0
+ 63c:	dc 01       	movw	r26, r24
+ 63e:	99 27       	eor	r25, r25
+ 640:	88 27       	eor	r24, r24
+ 642:	93 2b       	or	r25, r19
+ 644:	82 2b       	or	r24, r18
+			buff[i + 8 + j] = 0;
+		}
+	}
+	
+	// Write instruction
+	const uint16_t regAddr = MCP2517_RAM_ADDR_START + MCP2517_readReg32(MCP2517_REG_ADDR_C1FIFOUA + (MCP2517_TX_FIFO * MCP2517_C1FIFO_OFFSET));
+ 646:	9c 5f       	subi	r25, 0xFC	; 252
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_WRITE << 4) + ((regAddr >> 8) & 0xF));
+ 648:	9f 70       	andi	r25, 0x0F	; 15
+ 64a:	90 5e       	subi	r25, 0xE0	; 224
+ 64c:	99 83       	std	Y+1, r25	; 0x01
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 64e:	8a 83       	std	Y+2, r24	; 0x02
+	
+	// Add TX Message Object's ID bits to buffer
+	buff[2] = txObj->MCP2517_byte[0];
+ 650:	d8 01       	movw	r26, r16
+ 652:	8c 91       	ld	r24, X
+ 654:	8b 83       	std	Y+3, r24	; 0x03
+	buff[3] = txObj->MCP2517_byte[1];
+ 656:	11 96       	adiw	r26, 0x01	; 1
+ 658:	8c 91       	ld	r24, X
+ 65a:	11 97       	sbiw	r26, 0x01	; 1
+ 65c:	8c 83       	std	Y+4, r24	; 0x04
+	buff[4] = txObj->MCP2517_byte[2];
+ 65e:	12 96       	adiw	r26, 0x02	; 2
+ 660:	8c 91       	ld	r24, X
+ 662:	12 97       	sbiw	r26, 0x02	; 2
+ 664:	8d 83       	std	Y+5, r24	; 0x05
+	buff[5] = txObj->MCP2517_byte[3];
+ 666:	13 96       	adiw	r26, 0x03	; 3
+ 668:	8c 91       	ld	r24, X
+ 66a:	13 97       	sbiw	r26, 0x03	; 3
+ 66c:	8e 83       	std	Y+6, r24	; 0x06
+	// Add TX Message Object's ID Control bits to buffer
+	buff[6] = txObj->MCP2517_byte[4];
+ 66e:	14 96       	adiw	r26, 0x04	; 4
+ 670:	8c 91       	ld	r24, X
+ 672:	14 97       	sbiw	r26, 0x04	; 4
+ 674:	8f 83       	std	Y+7, r24	; 0x07
+	buff[7] = txObj->MCP2517_byte[5];
+ 676:	15 96       	adiw	r26, 0x05	; 5
+ 678:	8c 91       	ld	r24, X
+ 67a:	15 97       	sbiw	r26, 0x05	; 5
+ 67c:	88 87       	std	Y+8, r24	; 0x08
+	buff[8] = txObj->MCP2517_byte[6];
+ 67e:	16 96       	adiw	r26, 0x06	; 6
+ 680:	8c 91       	ld	r24, X
+ 682:	16 97       	sbiw	r26, 0x06	; 6
+ 684:	89 87       	std	Y+9, r24	; 0x09
+	buff[9] = txObj->MCP2517_byte[7];
+ 686:	17 96       	adiw	r26, 0x07	; 7
+ 688:	8c 91       	ld	r24, X
+ 68a:	8a 87       	std	Y+10, r24	; 0x0a
+	
+	// Loop through and add the payload data bytes to the buffer
+	for (i = 0; i < numDataBytes; i++) {
+ 68c:	ff 20       	and	r15, r15
+ 68e:	79 f0       	breq	.+30     	; 0x6ae <MCP2517_loadMsgTXFifo+0x10e>
+ 690:	ad 2d       	mov	r26, r13
+ 692:	be 2d       	mov	r27, r14
+ 694:	fe 01       	movw	r30, r28
+ 696:	3b 96       	adiw	r30, 0x0b	; 11
+ 698:	fa 94       	dec	r15
+ 69a:	9e 01       	movw	r18, r28
+ 69c:	2f 0d       	add	r18, r15
+ 69e:	31 1d       	adc	r19, r1
+ 6a0:	24 5f       	subi	r18, 0xF4	; 244
+ 6a2:	3f 4f       	sbci	r19, 0xFF	; 255
+		buff[i + 10] = payload[i];
+ 6a4:	8d 91       	ld	r24, X+
+ 6a6:	81 93       	st	Z+, r24
+	buff[7] = txObj->MCP2517_byte[5];
+	buff[8] = txObj->MCP2517_byte[6];
+	buff[9] = txObj->MCP2517_byte[7];
+	
+	// Loop through and add the payload data bytes to the buffer
+	for (i = 0; i < numDataBytes; i++) {
+ 6a8:	e2 17       	cp	r30, r18
+ 6aa:	f3 07       	cpc	r31, r19
+		buff[i + 10] = payload[i];
+	}
+
+	// Send CAN packet via SPI
+	MCP2517_assertCS();
+ 6ac:	d9 f7       	brne	.-10     	; 0x6a4 <MCP2517_loadMsgTXFifo+0x104>
+	spi_transfer_buffer(buff, sizeof(buff));
+ 6ae:	69 dd       	rcall	.-1326   	; 0x182 <MCP2517_assertCS>
+ 6b0:	65 e1       	ldi	r22, 0x15	; 21
+ 6b2:	ce 01       	movw	r24, r28
+ 6b4:	01 96       	adiw	r24, 0x01	; 1
+	MCP2517_deassertCS();
+ 6b6:	9f d0       	rcall	.+318    	; 0x7f6 <spi_transfer_buffer>
+ 6b8:	66 dd       	rcall	.-1332   	; 0x186 <MCP2517_deassertCS>
+// SPI Write Functions
+// *****************************************************************************
+inline void MCP2517_writeReg8(const uint16_t regAddr, const uint8_t value) {
+	uint8_t buff[3] = {0};
+
+	buff[0] = (uint8_t) ((MCP2517_INSTRUCTION_WRITE << 4) + ((regAddr >> 8) & 0xF));
+ 6ba:	80 e2       	ldi	r24, 0x20	; 32
+	buff[1] = (uint8_t) (regAddr & 0xFF);
+ 6bc:	8e 8b       	std	Y+22, r24	; 0x16
+ 6be:	8d e5       	ldi	r24, 0x5D	; 93
+	buff[2] = value;
+ 6c0:	8f 8b       	std	Y+23, r24	; 0x17
+	
+	MCP2517_assertCS();
+ 6c2:	83 e0       	ldi	r24, 0x03	; 3
+ 6c4:	88 8f       	std	Y+24, r24	; 0x18
+	spi_transfer_buffer(buff, 3);
+ 6c6:	5d dd       	rcall	.-1350   	; 0x182 <MCP2517_assertCS>
+ 6c8:	63 e0       	ldi	r22, 0x03	; 3
+ 6ca:	ce 01       	movw	r24, r28
+ 6cc:	46 96       	adiw	r24, 0x16	; 22
+ 6ce:	93 d0       	rcall	.+294    	; 0x7f6 <spi_transfer_buffer>
+	MCP2517_deassertCS();
+ 6d0:	5a dd       	rcall	.-1356   	; 0x186 <MCP2517_deassertCS>
+ 6d2:	6b 96       	adiw	r28, 0x1b	; 27
+	MCP2517_deassertCS();
+	
+	// Increment FIFO and send message
+	const uint8_t d = (1 << 0) | (1 << 1); // Set UINC, TXREQ bit
+	MCP2517_writeReg8(MCP2517_REG_ADDR_C1FIFOCON + (MCP2517_TX_FIFO * MCP2517_C1FIFO_OFFSET) + 1, d);
+}
+ 6d4:	0f b6       	in	r0, 0x3f	; 63
+ 6d6:	f8 94       	cli
+ 6d8:	de bf       	out	0x3e, r29	; 62
+ 6da:	0f be       	out	0x3f, r0	; 63
+ 6dc:	cd bf       	out	0x3d, r28	; 61
+ 6de:	df 91       	pop	r29
+ 6e0:	cf 91       	pop	r28
+ 6e2:	1f 91       	pop	r17
+ 6e4:	0f 91       	pop	r16
+ 6e6:	ff 90       	pop	r15
+ 6e8:	ef 90       	pop	r14
+ 6ea:	df 90       	pop	r13
+ 6ec:	bf 90       	pop	r11
+ 6ee:	af 90       	pop	r10
+ 6f0:	08 95       	ret
+
+000006f2 <MCP2517_transmitMessage>:
+ 6f2:	8f 92       	push	r8
+}
+
+// *****************************************************************************
+// MCP2517 Transmit Functions
+// *****************************************************************************
+uint8_t MCP2517_transmitMessage(uint32_t canMessageID, uint8_t numDataBytes, uint8_t *messageData) {
+ 6f4:	9f 92       	push	r9
+ 6f6:	af 92       	push	r10
+ 6f8:	bf 92       	push	r11
+ 6fa:	ef 92       	push	r14
+ 6fc:	ff 92       	push	r15
+ 6fe:	1f 93       	push	r17
+ 700:	cf 93       	push	r28
+ 702:	df 93       	push	r29
+ 704:	cd b7       	in	r28, 0x3d	; 61
+ 706:	de b7       	in	r29, 0x3e	; 62
+ 708:	2d 97       	sbiw	r28, 0x0d	; 13
+ 70a:	0f b6       	in	r0, 0x3f	; 63
+ 70c:	f8 94       	cli
+ 70e:	de bf       	out	0x3e, r29	; 62
+ 710:	0f be       	out	0x3f, r0	; 63
+ 712:	cd bf       	out	0x3d, r28	; 61
+ 714:	14 2f       	mov	r17, r20
+ 716:	79 01       	movw	r14, r18
+	
+	// Check if numDataBytes > 8
+	if (numDataBytes > 8) {
+ 718:	49 30       	cpi	r20, 0x09	; 9
+ 71a:	20 f0       	brcs	.+8      	; 0x724 <MCP2517_transmitMessage+0x32>
+		uart0_transmit(MCP2517_MESSAGE_SIZE_ERROR);
+ 71c:	84 e0       	ldi	r24, 0x04	; 4
+ 71e:	96 d0       	rcall	.+300    	; 0x84c <uart0_transmit>
+		return MCP2517_MESSAGE_SIZE_ERROR;
+ 720:	84 e0       	ldi	r24, 0x04	; 4
+ 722:	52 c0       	rjmp	.+164    	; 0x7c8 <MCP2517_transmitMessage+0xd6>
+	
+	// Create transmit message object
+	MCP2517_TX_MSG_OBJ txObj;
+	
+	// Set ID and CTRL bits to 0
+	txObj.MCP2517_word[0] = 0;
+ 724:	19 82       	std	Y+1, r1	; 0x01
+ 726:	1a 82       	std	Y+2, r1	; 0x02
+ 728:	1b 82       	std	Y+3, r1	; 0x03
+ 72a:	1c 82       	std	Y+4, r1	; 0x04
+	txObj.MCP2517_word[1] = 0;
+ 72c:	1d 82       	std	Y+5, r1	; 0x05
+ 72e:	1e 82       	std	Y+6, r1	; 0x06
+ 730:	1f 82       	std	Y+7, r1	; 0x07
+ 732:	18 86       	std	Y+8, r1	; 0x08
+	// Configure ID bits
+	txObj.MCP2517_bF.MCP2517_id.MCP2517_SID = canMessageID >> 18; // Base ID
+ 734:	4b 01       	movw	r8, r22
+ 736:	5c 01       	movw	r10, r24
+ 738:	07 2e       	mov	r0, r23
+ 73a:	72 e1       	ldi	r23, 0x12	; 18
+ 73c:	b6 94       	lsr	r11
+ 73e:	a7 94       	ror	r10
+ 740:	97 94       	ror	r9
+ 742:	87 94       	ror	r8
+ 744:	7a 95       	dec	r23
+ 746:	d1 f7       	brne	.-12     	; 0x73c <MCP2517_transmitMessage+0x4a>
+ 748:	70 2d       	mov	r23, r0
+ 74a:	89 82       	std	Y+1, r8	; 0x01
+	txObj.MCP2517_bF.MCP2517_id.MCP2517_EID = canMessageID; // Extended ID
+ 74c:	26 2f       	mov	r18, r22
+ 74e:	22 0f       	add	r18, r18
+ 750:	22 0f       	add	r18, r18
+ 752:	22 0f       	add	r18, r18
+ 754:	39 2d       	mov	r19, r9
+ 756:	37 70       	andi	r19, 0x07	; 7
+ 758:	23 2b       	or	r18, r19
+ 75a:	2a 83       	std	Y+2, r18	; 0x02
+ 75c:	27 2f       	mov	r18, r23
+ 75e:	22 0f       	add	r18, r18
+ 760:	22 0f       	add	r18, r18
+ 762:	22 0f       	add	r18, r18
+ 764:	36 2f       	mov	r19, r22
+ 766:	32 95       	swap	r19
+ 768:	36 95       	lsr	r19
+ 76a:	37 70       	andi	r19, 0x07	; 7
+ 76c:	23 2b       	or	r18, r19
+ 76e:	2b 83       	std	Y+3, r18	; 0x03
+ 770:	27 2f       	mov	r18, r23
+ 772:	22 95       	swap	r18
+ 774:	26 95       	lsr	r18
+ 776:	27 70       	andi	r18, 0x07	; 7
+ 778:	3c 81       	ldd	r19, Y+4	; 0x04
+ 77a:	30 7e       	andi	r19, 0xE0	; 224
+ 77c:	98 2f       	mov	r25, r24
+ 77e:	93 70       	andi	r25, 0x03	; 3
+ 780:	99 0f       	add	r25, r25
+ 782:	99 0f       	add	r25, r25
+ 784:	99 0f       	add	r25, r25
+ 786:	83 2f       	mov	r24, r19
+ 788:	82 2b       	or	r24, r18
+ 78a:	89 2b       	or	r24, r25
+ 78c:	8c 83       	std	Y+4, r24	; 0x04
+	// Configure CTRL bits
+	txObj.MCP2517_bF.MCP2517_ctrl.MCP2517_FDF = 0; // CAN 2.B frame
+	txObj.MCP2517_bF.MCP2517_ctrl.MCP2517_BRS = 1; // Switch data bit rate
+	txObj.MCP2517_bF.MCP2517_ctrl.MCP2517_IDE = 1; // Extended format frame
+	txObj.MCP2517_bF.MCP2517_ctrl.MCP2517_RTR = 0; // Not a remote frame request
+	txObj.MCP2517_bF.MCP2517_ctrl.MCP2517_DLC = numDataBytes; // Data length code
+ 78e:	84 2f       	mov	r24, r20
+ 790:	8f 70       	andi	r24, 0x0F	; 15
+ 792:	80 65       	ori	r24, 0x50	; 80
+ 794:	8d 83       	std	Y+5, r24	; 0x05
+
+	// Check that FIFO is not full
+	MCP2517_TX_FIFO_STATUS txFlags;
+
+	MCP2517_transmitFifoStatus(MCP2517_TX_FIFO, &txFlags);
+ 796:	be 01       	movw	r22, r28
+ 798:	63 5f       	subi	r22, 0xF3	; 243
+ 79a:	7f 4f       	sbci	r23, 0xFF	; 255
+ 79c:	81 e0       	ldi	r24, 0x01	; 1
+ 79e:	fb dd       	rcall	.-1034   	; 0x396 <MCP2517_transmitFifoStatus>
+	
+	// If not full proceed to append FIFO to buffer and transmit
+	if (txFlags & MCP2517_TX_FIFO_NOT_FULL_STATUS) {
+ 7a0:	8d 85       	ldd	r24, Y+13	; 0x0d
+ 7a2:	80 ff       	sbrs	r24, 0
+ 7a4:	10 c0       	rjmp	.+32     	; 0x7c6 <MCP2517_transmitMessage+0xd4>
+		//LED_A_ON;
+		MCP2517_loadMsgTXFifo(&txObj, messageData, numDataBytes);
+ 7a6:	41 2f       	mov	r20, r17
+ 7a8:	b7 01       	movw	r22, r14
+ 7aa:	ce 01       	movw	r24, r28
+ 7ac:	01 96       	adiw	r24, 0x01	; 1
+ 7ae:	f8 de       	rcall	.-528    	; 0x5a0 <MCP2517_loadMsgTXFifo>
+ 7b0:	2f ef       	ldi	r18, 0xFF	; 255
+ 7b2:	81 ee       	ldi	r24, 0xE1	; 225
+ 7b4:	94 e0       	ldi	r25, 0x04	; 4
+ 7b6:	21 50       	subi	r18, 0x01	; 1
+ 7b8:	80 40       	sbci	r24, 0x00	; 0
+ 7ba:	90 40       	sbci	r25, 0x00	; 0
+ 7bc:	e1 f7       	brne	.-8      	; 0x7b6 <MCP2517_transmitMessage+0xc4>
+ 7be:	00 c0       	rjmp	.+0      	; 0x7c0 <MCP2517_transmitMessage+0xce>
+ 7c0:	00 00       	nop
+		_delay_ms(100);
+		//LED_A_OFF;
+	}
+	
+	return MCP2517_NO_ERROR;
+ 7c2:	81 e0       	ldi	r24, 0x01	; 1
+ 7c4:	01 c0       	rjmp	.+2      	; 0x7c8 <MCP2517_transmitMessage+0xd6>
+ 7c6:	81 e0       	ldi	r24, 0x01	; 1
+}
+ 7c8:	2d 96       	adiw	r28, 0x0d	; 13
+ 7ca:	0f b6       	in	r0, 0x3f	; 63
+ 7cc:	f8 94       	cli
+ 7ce:	de bf       	out	0x3e, r29	; 62
+ 7d0:	0f be       	out	0x3f, r0	; 63
+ 7d2:	cd bf       	out	0x3d, r28	; 61
+ 7d4:	df 91       	pop	r29
+ 7d6:	cf 91       	pop	r28
+ 7d8:	1f 91       	pop	r17
+ 7da:	ff 90       	pop	r15
+ 7dc:	ef 90       	pop	r14
+ 7de:	bf 90       	pop	r11
+ 7e0:	af 90       	pop	r10
+ 7e2:	9f 90       	pop	r9
+ 7e4:	8f 90       	pop	r8
+ 7e6:	08 95       	ret
+
+000007e8 <spi_init>:
+	SPDR = data;
+	/* Wait for transmission complete */
+	while(!(SPSR & (1<<SPIF)));
+	/* Return any data that was shifted into this register upon transmission  */
+	return SPDR;
+}
+ 7e8:	66 0f       	add	r22, r22
+ 7ea:	80 65       	ori	r24, 0x50	; 80
+ 7ec:	86 2b       	or	r24, r22
+ 7ee:	8c bd       	out	0x2c, r24	; 44
+ 7f0:	1d bc       	out	0x2d, r1	; 45
+ 7f2:	1e bc       	out	0x2e, r1	; 46
+ 7f4:	08 95       	ret
+
+000007f6 <spi_transfer_buffer>:
+
+// FULLY WORKING
+void spi_transfer_buffer(uint8_t *buf, uint8_t count)
+{
+	if (count == 0) return;
+ 7f6:	66 23       	and	r22, r22
+ 7f8:	a1 f0       	breq	.+40     	; 0x822 <spi_transfer_buffer+0x2c>
+ 7fa:	fc 01       	movw	r30, r24
+ 7fc:	61 50       	subi	r22, 0x01	; 1
+ 7fe:	26 2f       	mov	r18, r22
+ 800:	30 e0       	ldi	r19, 0x00	; 0
+ 802:	2f 5f       	subi	r18, 0xFF	; 255
+ 804:	3f 4f       	sbci	r19, 0xFF	; 255
+ 806:	82 0f       	add	r24, r18
+ 808:	93 1f       	adc	r25, r19
+ 80a:	df 01       	movw	r26, r30
+	for(uint8_t i = 0; i < count; i++) {
+		uint8_t out = *(buf + i);
+ 80c:	20 81       	ld	r18, Z
+		SPDR = out;
+ 80e:	2e bd       	out	0x2e, r18	; 46
+		while(!(SPSR & (1<<SPIF)));
+ 810:	0d b4       	in	r0, 0x2d	; 45
+ 812:	07 fe       	sbrs	r0, 7
+ 814:	fd cf       	rjmp	.-6      	; 0x810 <spi_transfer_buffer+0x1a>
+		*(buf + i) = SPDR;
+ 816:	2e b5       	in	r18, 0x2e	; 46
+ 818:	2c 93       	st	X, r18
+ 81a:	31 96       	adiw	r30, 0x01	; 1
+
+// FULLY WORKING
+void spi_transfer_buffer(uint8_t *buf, uint8_t count)
+{
+	if (count == 0) return;
+	for(uint8_t i = 0; i < count; i++) {
+ 81c:	e8 17       	cp	r30, r24
+ 81e:	f9 07       	cpc	r31, r25
+ 820:	a1 f7       	brne	.-24     	; 0x80a <spi_transfer_buffer+0x14>
+ 822:	08 95       	ret
+
+00000824 <uart0_init>:
+
+/* All boards use a 16MHz oscillator frequency */
+// 
+void uart0_init(unsigned int baudRate) {
+	/* Set baud rate 19200 */
+	UBRR0H = 0; //1001011
+ 824:	10 92 c5 00 	sts	0x00C5, r1	; 0x8000c5 <__TEXT_REGION_LENGTH__+0x7e00c5>
+	UBRR0L = 103; 
+ 828:	87 e6       	ldi	r24, 0x67	; 103
+ 82a:	80 93 c4 00 	sts	0x00C4, r24	; 0x8000c4 <__TEXT_REGION_LENGTH__+0x7e00c4>
+	CLKPR = (1<<CLKPCE);  	//enable clock prescaler change
+ 82e:	e1 e6       	ldi	r30, 0x61	; 97
+ 830:	f0 e0       	ldi	r31, 0x00	; 0
+ 832:	80 e8       	ldi	r24, 0x80	; 128
+ 834:	80 83       	st	Z, r24
+	CLKPR = 0x00;			//clock divide = 1  so  16MHz/1 = 16MHz
+ 836:	10 82       	st	Z, r1
+	/* Enable receiver and transmitter */
+	UCSR0B = (1 << RXEN0)|(1 << TXEN0);
+ 838:	88 e1       	ldi	r24, 0x18	; 24
+ 83a:	80 93 c1 00 	sts	0x00C1, r24	; 0x8000c1 <__TEXT_REGION_LENGTH__+0x7e00c1>
+	/* Set frame format: 8data, 0stop bit */
+	UCSR0A = 2;		//2x on
+ 83e:	82 e0       	ldi	r24, 0x02	; 2
+ 840:	80 93 c0 00 	sts	0x00C0, r24	; 0x8000c0 <__TEXT_REGION_LENGTH__+0x7e00c0>
+	UCSR0C = (3 << UCSZ00);
+ 844:	86 e0       	ldi	r24, 0x06	; 6
+ 846:	80 93 c2 00 	sts	0x00C2, r24	; 0x8000c2 <__TEXT_REGION_LENGTH__+0x7e00c2>
+ 84a:	08 95       	ret
+
+0000084c <uart0_transmit>:
+}
+
+void uart0_transmit(uint8_t data) {
+	/* wait for empty transmit buffer */
+	while( !(UCSR0A & (1 << UDRE0)) );
+ 84c:	e0 ec       	ldi	r30, 0xC0	; 192
+ 84e:	f0 e0       	ldi	r31, 0x00	; 0
+ 850:	90 81       	ld	r25, Z
+ 852:	95 ff       	sbrs	r25, 5
+ 854:	fd cf       	rjmp	.-6      	; 0x850 <uart0_transmit+0x4>
+	/* put data into buffer, sends the data */
+	UDR0 = data;
+ 856:	80 93 c6 00 	sts	0x00C6, r24	; 0x8000c6 <__TEXT_REGION_LENGTH__+0x7e00c6>
+ 85a:	08 95       	ret
+
+0000085c <_exit>:
+ 85c:	f8 94       	cli
+
+0000085e <__stop_program>:
+ 85e:	ff cf       	rjmp	.-2      	; 0x85e <__stop_program>

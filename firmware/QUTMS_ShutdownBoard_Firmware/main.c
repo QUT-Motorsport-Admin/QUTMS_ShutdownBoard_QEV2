@@ -35,7 +35,7 @@ void shutdown_board_init()
 	DDRD = 0b11000010; // LEDs as outputs
 	DDRB = 0b10111000; // MOSI and SCK and CAN_CS as output, SS output
 
-	CAN_CS_PORT |= (1<<CAN_CS); // CS high to turn off
+	CAN_CS_PORT |= (1 << CAN_CS); // CS high to turn off
 	
 	adc_init();
 	uart0_init(9600);
@@ -48,27 +48,18 @@ int main(void)
 {
     shutdown_board_init();
 	
-	SHUTDOWN_BOARD_DATA[0] = 0x00;
-	SHUTDOWN_BOARD_DATA[1] = 0x01;
-	SHUTDOWN_BOARD_DATA[2] = 0x02;
-	SHUTDOWN_BOARD_DATA[3] = 0x03;
-	SHUTDOWN_BOARD_DATA[4] = 0x04;
-	
 	uint8_t data[8] = {0};
-	uint32_t receiveID;
+	CAN_RECEIVE_ADDRESS receiveID;
 	uint8_t numDataBytes;
 	
     while(1) 
     {
 		MCP2517_recieveMessage(&receiveID, &numDataBytes, data);
-		if(receiveID == CAN_ID_PDM >> 18) {
-			LED_A_ON;		
-			MCP2517_transmitMessage(CAN_ID_WHEEL, 5, SHUTDOWN_BOARD_DATA);
-			_delay_ms(100);
-			LED_A_OFF;
+		if(receiveID == CAN_RECEIVE_ID_SHUTDOWN >> 18) {	
+			MCP2517_transmitMessage(CAN_SEND_ID_SHUTDOWN, 5, SHUTDOWN_BOARD_DATA); // Respond to CC Heartbeat
 		}
 			
-		_delay_ms(200);
+		_delay_ms(100);
     }
 }
 

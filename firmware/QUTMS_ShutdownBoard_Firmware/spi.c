@@ -3,7 +3,8 @@
 * @author  Zoe Goodward
 * @version V1.0.0
 * @date    2/08/2019 1:25:34 PM
-* @brief   This file...
+* @brief   This file implements the functions that are used for
+*          SPI
 *****************************************************************************/
 
 /* INCLUDES */

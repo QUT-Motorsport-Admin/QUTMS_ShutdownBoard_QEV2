@@ -3,7 +3,9 @@
 Saftey System shutdown board dedicated to managing the vehicle shutdown loop.
 
 ## Function
-Will disable the car and create a fault log if a fault is detected.
+Disables the car by opening the shutdown loop if at least one shudown device reports a fault. It also reports which devices are open circuit in the shutdown loop using sense wires in the wiring harness.
 
 ## Subsystems
-* Shutdown Loop
+* Shutdown loop latching for HVD, IMD, BMS, PDOC, MCU and BSPD.
+* Brake Sensor Plausibility Device (BSPD).
+* Shutdown node sensing and reporting.

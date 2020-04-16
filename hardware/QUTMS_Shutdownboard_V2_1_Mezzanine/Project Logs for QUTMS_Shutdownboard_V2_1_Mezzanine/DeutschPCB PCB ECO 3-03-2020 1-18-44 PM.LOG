@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=SHDN_UPRIGHT_BR Pin=R20-1
+Removed Pin From Net: NetName=SHDN_UPRIGHT_FR Pin=R22-1
+Added Pin To Net: NetName=SHDN_UPRIGHT_FR Pin=R20-1
+Added Pin To Net: NetName=SHDN_UPRIGHT_BR Pin=R22-1
+Change Net Name : Old Net Name=MUX_UPRIGHT_BR New Net Name=MUX_UPRIGHT_FR
+Change Net Name : Old Net Name=MUX_UPRIGHT_FR New Net Name=MUX_UPRIGHT_BR

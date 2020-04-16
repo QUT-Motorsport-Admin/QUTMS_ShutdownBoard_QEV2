@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=STATE_TRIGGER4 Pin=J1-A3
+Removed Pin From Net: NetName=STATE_TRIGGER2 Pin=J1-A4
+Added Pin To Net: NetName=STATE_TRIGGER2 Pin=J1-A3
+Added Pin To Net: NetName=STATE_TRIGGER4 Pin=J1-A4

@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=SHDN_BSPD_SIG Pin=U6-1
+Removed Pin From Net: NetName=BPSD_VREF Pin=U6-2
+Removed Pin From Net: NetName=BPSD_DELAY Pin=U6-3
+Removed Pin From Net: NetName=GND Pin=U6-4
+Removed Pin From Net: NetName=+5 Pin=U6-8
+Removed Pin From Net: NetName=BRK_PRS_OP_LOW Pin=U9-1
+Removed Pin From Net: NetName=BKR_PRS_ADJ_LOW Pin=U9-2
+Removed Pin From Net: NetName=BRK_PRS_IN Pin=U9-3
+Change Component Designator: OldDesignator=U9 NewDesignator=U6
+Added Pin To Net: NetName=SHDN_BSPD_SIG Pin=U6-1
+Added Pin To Net: NetName=BPSD_VREF Pin=U6-2
+Added Pin To Net: NetName=BPSD_DELAY Pin=U6-3
+Added Pin To Net: NetName=BRK_PRS_OP_LOW Pin=U9-1
+Added Pin To Net: NetName=BKR_PRS_ADJ_LOW Pin=U9-2
+Added Pin To Net: NetName=BRK_PRS_IN Pin=U9-3
+Added Room: Name=BSPD_Simulation
+Added Room: Name=BSPD_System

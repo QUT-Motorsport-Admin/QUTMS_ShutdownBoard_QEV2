@@ -1,0 +1,14 @@
+Added Component: Designator=J2_SHDN_SEG6(G6S-2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://lcsc.com/product-detail/Relays_OMRON_G6S-2-12V_G6S-2-12V_C28410.html"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=STATE_SENSE6 Pin=J2_SHDN_SEG6-1
+Added Pin To Net: NetName=SHDN_LINE_SHDN_SEG6 Pin=J2_SHDN_SEG6-3
+Added Pin To Net: NetName=SHDN_IN6 Pin=J2_SHDN_SEG6-4
+Added Pin To Net: NetName=SHDN_OUT6 Pin=J2_SHDN_SEG6-5
+Added Pin To Net: NetName=STATE_SENSE6 Pin=J2_SHDN_SEG6-8
+Added Pin To Net: NetName=STATE_TRIGGER Pin=J2_SHDN_SEG6-9
+Added Pin To Net: NetName=SHDN_STATE_SHDN_SEG6 Pin=J2_SHDN_SEG6-10
+Added Pin To Net: NetName=GND Pin=J2_SHDN_SEG6-12
+Added Member To Class: ClassName=SHDN_SEG6 Member=Component J2_SHDN_SEG6 (J2) G6S-2-DC12
+Added Room: Name=Master

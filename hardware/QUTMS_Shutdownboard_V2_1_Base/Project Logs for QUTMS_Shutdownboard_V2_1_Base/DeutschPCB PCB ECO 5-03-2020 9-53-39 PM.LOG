@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=SHDN_ESTOP_LEFT Pin=J1-B3
+Removed Pin From Net: NetName=SHDN_UPRIGHT_BL Pin=J1-B4
+Added Pin To Net: NetName=SHDN_UPRIGHT_BL Pin=J1-B3
+Added Pin To Net: NetName=SHDN_ESTOP_LEFT Pin=J1-B4

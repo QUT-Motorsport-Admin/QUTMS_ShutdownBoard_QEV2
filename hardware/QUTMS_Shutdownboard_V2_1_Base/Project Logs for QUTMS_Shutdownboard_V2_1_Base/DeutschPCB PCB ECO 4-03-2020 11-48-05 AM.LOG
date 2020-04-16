@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=SHDN_OUT6 Pin=J1-B7
+Removed Pin From Net: NetName=SHUTDOWN_RESET Pin=J1-B8
+Removed Pin From Net: NetName=SHDN_ESTOP_LEFT Pin=J1-B9
+Removed Pin From Net: NetName=SHDN_ESTOP_RIGHT Pin=J1-B10
+Removed Pin From Net: NetName=SHDN_ESTOP_DASH Pin=J1-B11
+Removed Pin From Net: NetName=SHDN_DASH_INERTIA Pin=J1-B12
+Change Component Description : Designator=VR1 Old Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS New Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS | VG039NCHXTB472
+Change Component Description : Designator=VR2 Old Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS New Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS | VG039NCHXTB472
+Change Component Description : Designator=VR3 Old Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS New Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS | VG039NCHXTB472
+Change Component Description : Designator=VR4 Old Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS New Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS | VG039NCHXTB472
+Change Component Description : Designator=VR5 Old Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS New Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS | VG039NCHXTB472
+Change Component Description : Designator=VR6 Old Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS New Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS | VG039NCHXTB472
+Change Component Description : Designator=VR7 Old Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS New Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS | VG039NCHXTB472
+Change Component Description : Designator=VR9 Old Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS New Description=4k7 ±25% ±250 ppm/°C SMD Variable Resistors RoHS | VG039NCHXTB472
+Change Component Description : Designator=VR8 Old Description=500K ±25% ±250 ppm/°C SMD Variable Resistors RoHS New Description=500K ±25% ±250 ppm/°C SMD Variable Resistors RoHS | VG039NCHXTB504
+Added Pin To Net: NetName=SHDN_DASH_INERTIA Pin=J1-B7
+Added Pin To Net: NetName=SHDN_ESTOP_DASH Pin=J1-B8
+Added Pin To Net: NetName=SHDN_ESTOP_RIGHT Pin=J1-B9
+Added Pin To Net: NetName=SHDN_ESTOP_LEFT Pin=J1-B10
+Added Pin To Net: NetName=SHUTDOWN_RESET Pin=J1-B11
+Added Pin To Net: NetName=SHDN_OUT6 Pin=J1-B12
+Added Member To Class: ClassName=BSPD_System Member=Component U6 LM358AM
+Added Member To Class: ClassName=BSPD_System Member=Component U9 LM358AM
+Added Room: Name=BSPD_Simulation
+Added Room: Name=BSPD_System
+Added Room: Name=Master

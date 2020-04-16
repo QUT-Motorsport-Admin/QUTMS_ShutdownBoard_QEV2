@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=CAN_N Pin=J1-A5
+Removed Pin From Net: NetName=VCC Pin=J1-A6
+Removed Pin From Net: NetName=GND Pin=J1-A7
+Removed Pin From Net: NetName=CAN_P Pin=J1-A8
+Added Pin To Net: NetName=GND Pin=J1-A5
+Added Pin To Net: NetName=CAN_P Pin=J1-A6
+Added Pin To Net: NetName=CAN_N Pin=J1-A7
+Added Pin To Net: NetName=VCC Pin=J1-A8
+Added Member To Class: ClassName=BSPD_System Member=Component U9 LM358AM

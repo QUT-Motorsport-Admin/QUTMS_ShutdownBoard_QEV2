@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=BRK_PRS_OP_LOW Pin=U9-1
+Removed Pin From Net: NetName=BKR_PRS_ADJ_LOW Pin=U9-2
+Removed Pin From Net: NetName=BRK_PRS_IN Pin=U9-3
+Removed Pin From Net: NetName=BKR_PRS_ADJ_HIGH Pin=U9-5
+Removed Pin From Net: NetName=BRK_PRS_IN Pin=U9-6
+Removed Pin From Net: NetName=BRK_PRS_OP_HIGH Pin=U9-7
+Added Pin To Net: NetName=BRK_PRS_OP_HIGH Pin=U9-1
+Added Pin To Net: NetName=BRK_PRS_IN Pin=U9-2
+Added Pin To Net: NetName=BKR_PRS_ADJ_HIGH Pin=U9-3
+Added Pin To Net: NetName=BRK_PRS_IN Pin=U9-5
+Added Pin To Net: NetName=BKR_PRS_ADJ_LOW Pin=U9-6
+Added Pin To Net: NetName=BRK_PRS_OP_LOW Pin=U9-7
+Added Member To Class: ClassName=BSPD_System Member=Component U9 LM358AM
+Added Room: Name=BSPD_Simulation
+Added Room: Name=BSPD_System
+Added Room: Name=Master

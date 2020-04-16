@@ -1,0 +1,86 @@
+Removed Pin From Net: NetName=SHDN_UPRIGHT_BL Pin=R19-1
+Removed Pin From Net: NetName=SHDN_UPRIGHT_FL Pin=R21-1
+Added Pin To Net: NetName=SHDN_UPRIGHT_FL Pin=R19-1
+Added Pin To Net: NetName=SHDN_UPRIGHT_BL Pin=R21-1
+Change Net Name : Old Net Name=MUX_UPRIGHT_BL New Net Name=MUX_UPRIGHT_FL
+Change Net Name : Old Net Name=MUX_UPRIGHT_FL New Net Name=MUX_UPRIGHT_BL
+Added Member To Class: ClassName=CANBUS Member=Component C1 CAP 4.7nF 50V 0603(1608)
+Added Member To Class: ClassName=CANBUS Member=Component C2 CAP 100nF 50V 0603(1608)
+Added Member To Class: ClassName=CANBUS Member=Component C3 CAP 100nF 50V 0603(1608)
+Added Member To Class: ClassName=CANBUS Member=Component C4 CAP 18pF 50V 0603(1608)
+Added Member To Class: ClassName=CANBUS Member=Component C5 CAP 18pF 50V 0603(1608)
+Added Member To Class: ClassName=Demux Member=Component C6 CAP 100nF 50V 0603(1608)
+Added Member To Class: ClassName=Demux Member=Component C7 CAP 100nF 50V 0603(1608)
+Added Member To Class: ClassName=Demux Member=Component C8 CAP 100nF 50V 0603(1608)
+Added Member To Class: ClassName=MCU Member=Component C9 CAP 100nF 50V 0603(1608)
+Added Member To Class: ClassName=MCU Member=Component C10 CAP 100nF 50V 0603(1608)
+Added Member To Class: ClassName=MCU Member=Component C11 CAP 18pF 50V 0603(1608)
+Added Member To Class: ClassName=CANBUS Member=Component D1 NUP2105LT1G
+Added Member To Class: ClassName=Demux Member=Component D2 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D3 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D4 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D5 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D7 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D8 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D10 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D13 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D15 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D16 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D18 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D21 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D23 BZT52C5V1-7-F
+Added Member To Class: ClassName=CANBUS Member=Component DS1 LED Blue 0603
+Added Member To Class: ClassName=CANBUS Member=Component DS2 LED Blue 0603
+Added Member To Class: ClassName=MCU Member=Component DS3 LED Orange 0603
+Added Member To Class: ClassName=MCU Member=Component DS4 LED Orange 0603
+Added Member To Class: ClassName=CANBUS Member=Component R1 60R4 1% 1210(3225)
+Added Member To Class: ClassName=CANBUS Member=Component R2 300R 5% 0603(1608)
+Added Member To Class: ClassName=CANBUS Member=Component R3 60R4 1% 1210(3225)
+Added Member To Class: ClassName=CANBUS Member=Component R4 1K 5% 0603(1608)
+Added Member To Class: ClassName=CANBUS Member=Component R5 1K 5% 0603(1608)
+Added Member To Class: ClassName=Demux Member=Component R6 10K
+Added Member To Class: ClassName=Demux Member=Component R7 10K
+Added Member To Class: ClassName=Demux Member=Component R8 10K
+Added Member To Class: ClassName=Demux Member=Component R9 10K
+Added Member To Class: ClassName=Demux Member=Component R10 10K
+Added Member To Class: ClassName=Demux Member=Component R11 10K
+Added Member To Class: ClassName=Demux Member=Component R12 10K
+Added Member To Class: ClassName=Demux Member=Component R13 10K
+Added Member To Class: ClassName=Demux Member=Component R14 10K
+Added Member To Class: ClassName=Demux Member=Component R15 10K
+Added Member To Class: ClassName=Demux Member=Component R16 10K
+Added Member To Class: ClassName=Demux Member=Component R17 10K
+Added Member To Class: ClassName=Demux Member=Component R18 10K
+Added Member To Class: ClassName=Demux Member=Component R19 10K
+Added Member To Class: ClassName=Demux Member=Component R20 10K
+Added Member To Class: ClassName=Demux Member=Component R21 10K
+Added Member To Class: ClassName=Demux Member=Component R22 10K
+Added Member To Class: ClassName=Demux Member=Component R23 10K
+Added Member To Class: ClassName=Demux Member=Component R24 10K
+Added Member To Class: ClassName=Demux Member=Component R25 10K
+Added Member To Class: ClassName=Demux Member=Component R26 10K
+Added Member To Class: ClassName=Demux Member=Component R27 10K
+Added Member To Class: ClassName=MCU Member=Component R28 10K 5% 0603(1608)
+Added Member To Class: ClassName=MCU Member=Component R29 1K 5% 0603(1608)
+Added Member To Class: ClassName=MCU Member=Component R30 1K 5% 0603(1608)
+Added Member To Class: ClassName=MCU Member=Component SW1 B3U-1000P
+Added Member To Class: ClassName=CANBUS Member=Component TP1 TestPoint_SMD
+Added Member To Class: ClassName=CANBUS Member=Component TP2 TestPoint_SMD
+Added Member To Class: ClassName=CANBUS Member=Component TP3 TestPoint_SMD
+Added Member To Class: ClassName=CANBUS Member=Component TP4 TestPoint_SMD
+Added Member To Class: ClassName=Demux Member=Component TP5 TestPoint_SMD
+Added Member To Class: ClassName=Demux Member=Component TP6 TestPoint_SMD
+Added Member To Class: ClassName=Demux Member=Component TP7 TestPoint_SMD
+Added Member To Class: ClassName=Demux Member=Component TP8 TestPoint_SMD
+Added Member To Class: ClassName=MCU Member=Component TP9 TestPoint_SMD
+Added Member To Class: ClassName=MCU Member=Component TP10 TestPoint_SMD
+Added Member To Class: ClassName=MCU Member=Component TP11 TestPoint_SMD
+Added Member To Class: ClassName=MCU Member=Component TP12 TestPoint_SMD
+Added Member To Class: ClassName=MCU Member=Component TP13 TestPoint_SMD
+Added Member To Class: ClassName=CANBUS Member=Component U1 MCP2518FD
+Added Member To Class: ClassName=CANBUS Member=Component U2 MCP2561
+Added Member To Class: ClassName=Demux Member=Component U3 LM358AM
+Added Member To Class: ClassName=Demux Member=Component U4 74HC4067
+Added Member To Class: ClassName=Demux Member=Component U5 SN74HC595PWR
+Added Member To Class: ClassName=Demux Member=Component U6 74HC4067
+Added Member To Class: ClassName=MCU Member=Component U7 ATmega1284P-AU

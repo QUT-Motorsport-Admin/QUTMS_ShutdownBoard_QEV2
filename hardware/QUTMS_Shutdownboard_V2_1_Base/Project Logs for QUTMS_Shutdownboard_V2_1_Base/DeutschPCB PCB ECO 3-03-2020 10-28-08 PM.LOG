@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=VCC Pin=J1-A1
+Removed Pin From Net: NetName=CAN_P Pin=J1-A2
+Removed Pin From Net: NetName=STATE_TRIGGER1 Pin=J1-A3
+Removed Pin From Net: NetName=STATE_TRIGGER3 Pin=J1-A4
+Removed Pin From Net: NetName=STATE_TRIGGER6 Pin=J1-A5
+Removed Pin From Net: NetName=BRK_PRS_IN_RAW Pin=J1-A6
+Removed Pin From Net: NetName=CAN_N Pin=J1-A8
+Removed Pin From Net: NetName=STATE_TRIGGER2 Pin=J1-A9
+Removed Pin From Net: NetName=STATE_TRIGGER4 Pin=J1-A10
+Removed Pin From Net: NetName=SHDN_BPSD_TEST Pin=J1-A11
+Removed Pin From Net: NetName=LEM_IN_RAW Pin=J1-A12
+Added Pin To Net: NetName=LEM_IN_RAW Pin=J1-A1
+Added Pin To Net: NetName=SHDN_BPSD_TEST Pin=J1-A2
+Added Pin To Net: NetName=STATE_TRIGGER4 Pin=J1-A3
+Added Pin To Net: NetName=STATE_TRIGGER2 Pin=J1-A4
+Added Pin To Net: NetName=CAN_N Pin=J1-A5
+Added Pin To Net: NetName=VCC Pin=J1-A6
+Added Pin To Net: NetName=CAN_P Pin=J1-A8
+Added Pin To Net: NetName=STATE_TRIGGER1 Pin=J1-A9
+Added Pin To Net: NetName=STATE_TRIGGER3 Pin=J1-A10
+Added Pin To Net: NetName=STATE_TRIGGER6 Pin=J1-A11
+Added Pin To Net: NetName=BRK_PRS_IN_RAW Pin=J1-A12
+Added Member To Class: ClassName=BSPD_System Member=Component U9 LM358AM

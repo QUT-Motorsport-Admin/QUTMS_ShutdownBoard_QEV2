@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=QUTMS_ShutdownBoard_V2_1.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\QUTMS_Shutdownboard_V2_1_Base\QUTMS_Shutdownboard_V2_1_Base.PrjPcb
+Record=SubProject|SourceDocument=QUTMS_ShutdownBoard_V2_1.MbsDoc|ProjectPath=..\QUTMS_Shutdownboard_V2_1_Base\QUTMS_Shutdownboard_V2_1_Base.PrjPcb
+Record=DiagramHierarchy|SourceDocument=QUTMS_ShutdownBoard_V2_1.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\QUTMS_Shutdownboard_V2_1_Mezzanine\QUTMS_Shutdownboard_V2_1_Mezzanine.PrjPcb
+Record=SubProject|SourceDocument=QUTMS_ShutdownBoard_V2_1.MbsDoc|ProjectPath=..\QUTMS_Shutdownboard_V2_1_Mezzanine\QUTMS_Shutdownboard_V2_1_Mezzanine.PrjPcb

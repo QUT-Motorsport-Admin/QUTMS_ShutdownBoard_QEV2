@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LEM_IN_RAW Pin=J1-A1
+Removed Pin From Net: NetName=SHDN_BPSD_TEST Pin=J1-A2
+Added Pin To Net: NetName=SHDN_BPSD_TEST Pin=J1-A1
+Added Pin To Net: NetName=LEM_IN_RAW Pin=J1-A2

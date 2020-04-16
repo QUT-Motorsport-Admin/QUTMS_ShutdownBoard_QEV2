@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=BRK_PRS_IN_SENSE Pin=R16-1
+Removed Pin From Net: NetName=LEM_IN_SENSE Pin=R17-1
+Added Pin To Net: NetName=LEM_IN_SENSE Pin=R16-1
+Added Pin To Net: NetName=BRK_PRS_IN_SENSE Pin=R17-1
+Change Net Name : Old Net Name=MUX_BRK_PRS_IN New Net Name=MUX_LEM_IN
+Change Net Name : Old Net Name=MUX_LEM_IN New Net Name=MUX_BRK_PRS_IN
+Added Room: Name=CANBUS
+Added Room: Name=Demux
+Added Room: Name=Master
+Added Room: Name=MCU

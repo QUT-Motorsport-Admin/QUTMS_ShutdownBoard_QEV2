@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=STATE_TRIGGER1 Pin=J2_SHDN_SEG1-9
+Added Pin To Net: NetName=STATE_TRIGGER2 Pin=J2_SHDN_SEG2-9
+Added Pin To Net: NetName=STATE_TRIGGER3 Pin=J2_SHDN_SEG3-9
+Added Pin To Net: NetName=STATE_TRIGGER4 Pin=J2_SHDN_SEG4-9
+Added Pin To Net: NetName=STATE_TRIGGER5 Pin=J2_SHDN_SEG5-9
+Added Pin To Net: NetName=STATE_TRIGGER6 Pin=J2_SHDN_SEG6-9
+Added Pin To Net: NetName=STATE_TRIGGER1 Pin=K1_SHDN_SEG1-4
+Added Pin To Net: NetName=STATE_TRIGGER2 Pin=K1_SHDN_SEG2-4
+Added Pin To Net: NetName=STATE_TRIGGER3 Pin=K1_SHDN_SEG3-4
+Added Pin To Net: NetName=STATE_TRIGGER4 Pin=K1_SHDN_SEG4-4
+Added Pin To Net: NetName=STATE_TRIGGER5 Pin=K1_SHDN_SEG5-4
+Added Pin To Net: NetName=STATE_TRIGGER6 Pin=K1_SHDN_SEG6-4
+Added Room: Name=Master

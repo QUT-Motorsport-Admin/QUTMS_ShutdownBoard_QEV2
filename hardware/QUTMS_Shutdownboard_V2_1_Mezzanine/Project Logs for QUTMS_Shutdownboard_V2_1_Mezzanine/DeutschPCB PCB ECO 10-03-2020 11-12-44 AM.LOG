@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=CAN_INT0 Pin=Z2-7
+Added Pin To Net: NetName=CAN_INT Pin=Z2-7
+Added Pin To Net: NetName=CAN_INT1 Pin=Z2-8
+Added Member To Class: ClassName=MCU Member=Component C12 CAP 18pF 50V 0603(1608)
+Added Member To Class: ClassName=Demux Member=Component U5 SN74HC595PWR

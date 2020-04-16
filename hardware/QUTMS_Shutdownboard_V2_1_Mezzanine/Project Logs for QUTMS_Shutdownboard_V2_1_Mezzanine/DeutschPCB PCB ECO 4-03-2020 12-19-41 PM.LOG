@@ -1,0 +1,184 @@
+Removed Pin From Net: NetName=MUX_UPRIGHT_FL Pin=D15-2
+Removed Pin From Net: NetName=MUX_UPRIGHT_FR Pin=D16-2
+Removed Pin From Net: NetName=MUX_UPRIGHT_BL Pin=D17-2
+Removed Pin From Net: NetName=MUX_UPRIGHT_BR Pin=D18-2
+Removed Pin From Net: NetName=MUX_ESTOP_LEFT Pin=D19-2
+Removed Pin From Net: NetName=MUX_ESTOP_RIGHT Pin=D20-2
+Removed Pin From Net: NetName=MUX_ESTOP_DASH Pin=D21-2
+Removed Pin From Net: NetName=MUX_DASH_INERTIA Pin=D22-2
+Removed Pin From Net: NetName=MUX_BRAKE_OVERTRAVEL Pin=D23-2
+Change Component Footprint: Designator=P3 Old Footprint=HDR1X14 New Footprint=HDR1X16
+Change Component Footprint: Designator=P4 Old Footprint=HDR1X14 New Footprint=HDR1X16
+Change Component Comment : Designator=P3 Old Comment=Header 14 New Comment=Header 16
+Change Component Comment : Designator=P4 Old Comment=Header 14 New Comment=Header 16
+Added Component: Designator=D24(DIOD-SOD123_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Brand"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.diodes.com/_files/datasheets/ds18004.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 37-2, 09/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Factory Pack Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ir - Reverse Current"; Value = "2uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Maximum Operating Temperature"; Value = "+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Operating Temperature"; Value = "-65C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 2.7 x 1.55 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SOD123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pd - Power Dissipation"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "ZenerDiodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "BZT52C5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Weight"; Value = "0.000353oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Temperature Coefficient"; Value = "-0.75mV/C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Tolerance"; Value = "6%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vz - Zener Voltage"; Value = "5.1V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zener Current"; Value = "5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zz - Zener Impedance"; Value = "60Ohms"; VariantName = "[No Variations]"
+Added Component: Designator=D25(DIOD-SOD123_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Brand"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Configuration"; Value = "Single"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.diodes.com/_files/datasheets/ds18004.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Rev. 37-2, 09/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Factory Pack Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.35mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ir - Reverse Current"; Value = "2uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2.85mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "DiodesIncorporated"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.diodes.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Maximum Operating Temperature"; Value = "+150C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Operating Temperature"; Value = "-65C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "SOD-123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 2.7 x 1.55 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "SOD123"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pd - Power Dissipation"; Value = "500mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "ZenerDiodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "BZT52C5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination Style"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Weight"; Value = "0.000353oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Temperature Coefficient"; Value = "-0.75mV/C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Tolerance"; Value = "6%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vz - Zener Voltage"; Value = "5.1V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zener Current"; Value = "5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Zz - Zener Impedance"; Value = "60Ohms"; VariantName = "[No Variations]"
+Added Component: Designator=R31(RESC0603(1608)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.1 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10000.00 Ohm"; VariantName = "[No Variations]"
+Added Component: Designator=R32(RESC0603(1608)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.1 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10000.00 Ohm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MUX_UPRIGHT_FL Pin=D17-2
+Added Pin To Net: NetName=MUX_UPRIGHT_FR Pin=D18-2
+Added Pin To Net: NetName=MUX_UPRIGHT_BL Pin=D19-2
+Added Pin To Net: NetName=MUX_UPRIGHT_BR Pin=D20-2
+Added Pin To Net: NetName=MUX_ESTOP_LEFT Pin=D21-2
+Added Pin To Net: NetName=MUX_ESTOP_RIGHT Pin=D22-2
+Added Pin To Net: NetName=MUX_ESTOP_DASH Pin=D23-2
+Added Pin To Net: NetName=GND Pin=D24-1
+Added Pin To Net: NetName=MUX_DASH_INERTIA Pin=D24-2
+Added Pin To Net: NetName=GND Pin=D25-1
+Added Pin To Net: NetName=MUX_BRAKE_OVERTRAVEL Pin=D25-2
+Added Pin To Net: NetName=+5 Pin=P4-15
+Added Pin To Net: NetName=GND Pin=P4-16
+Change Net Name : Old Net Name=MUX_BRK_PRS_IN New Net Name=MUX_SENSE_SDC
+Change Net Name : Old Net Name=MUX_BSPD_TEST New Net Name=MUX_LEM_IN
+Change Net Name : Old Net Name=MUX_LEM_IN New Net Name=MUX_SENSE_BSPD
+Change Net Name : Old Net Name=MUX_SENSE_BMS New Net Name=MUX_SENSE_IMD
+Change Net Name : Old Net Name=MUX_SENSE_BSPD New Net Name=MUX_SENSE_PDOC
+Change Net Name : Old Net Name=MUX_SENSE_HVD New Net Name=MUX_INPUT_SDC
+Change Net Name : Old Net Name=MUX_SENSE_IMD New Net Name=MUX_SENSE_HVD
+Change Net Name : Old Net Name=MUX_SENSE_PDOC New Net Name=MUX_SENSE_BMS
+Change Net Name : Old Net Name=SHDN_BRAKE_OVERTRAVEL New Net Name=NetP4_4
+Change Net Name : Old Net Name=SHDN_DASH_INERTIA New Net Name=NetP4_5
+Change Net Name : Old Net Name=SHDN_ESTOP_DASH New Net Name=NetP4_6
+Change Net Name : Old Net Name=SHDN_ESTOP_LEFT New Net Name=NetP4_8
+Change Net Name : Old Net Name=SHDN_ESTOP_RIGHT New Net Name=NetP4_7
+Change Net Name : Old Net Name=SHDN_UPRIGHT_BL New Net Name=NetP4_10
+Change Net Name : Old Net Name=SHDN_UPRIGHT_BR New Net Name=NetP4_9
+Change Net Name : Old Net Name=SHDN_UPRIGHT_FL New Net Name=NetP4_12
+Change Net Name : Old Net Name=SHDN_UPRIGHT_FR New Net Name=NetP4_11
+Added Pin To Net: NetName=MUX_BRK_PRS_IN Pin=D15-2
+Added Pin To Net: NetName=MUX_BRK_PRS_IN Pin=R31-2
+Added Pin To Net: NetName=MUX_BRK_PRS_IN Pin=U4-18
+Added Net: Name=MUX_BRK_PRS_IN
+Added Pin To Net: NetName=MUX_BSPD_TEST Pin=D16-2
+Added Pin To Net: NetName=MUX_BSPD_TEST Pin=R32-2
+Added Pin To Net: NetName=MUX_BSPD_TEST Pin=U4-17
+Added Net: Name=MUX_BSPD_TEST
+Added Pin To Net: NetName=NetP3_5 Pin=P3-5
+Added Pin To Net: NetName=NetP3_5 Pin=R12-1
+Added Net: Name=NetP3_5
+Added Pin To Net: NetName=NetP3_6 Pin=P3-6
+Added Pin To Net: NetName=NetP3_6 Pin=R13-1
+Added Net: Name=NetP3_6
+Added Pin To Net: NetName=NetP3_7 Pin=P3-7
+Added Pin To Net: NetName=NetP3_7 Pin=R14-1
+Added Net: Name=NetP3_7
+Added Pin To Net: NetName=NetP3_8 Pin=P3-8
+Added Pin To Net: NetName=NetP3_8 Pin=R15-1
+Added Net: Name=NetP3_8
+Added Pin To Net: NetName=NetP3_9 Pin=P3-9
+Added Pin To Net: NetName=NetP3_9 Pin=R16-1
+Added Net: Name=NetP3_9
+Added Pin To Net: NetName=NetP3_10 Pin=P3-10
+Added Pin To Net: NetName=NetP3_10 Pin=R17-1
+Added Net: Name=NetP3_10
+Added Pin To Net: NetName=NetP3_11 Pin=P3-11
+Added Pin To Net: NetName=NetP3_11 Pin=R6-1
+Added Net: Name=NetP3_11
+Added Pin To Net: NetName=NetP3_12 Pin=P3-12
+Added Pin To Net: NetName=NetP3_12 Pin=R7-1
+Added Net: Name=NetP3_12
+Added Pin To Net: NetName=NetP3_13 Pin=P3-13
+Added Pin To Net: NetName=NetP3_13 Pin=R8-1
+Added Net: Name=NetP3_13
+Added Pin To Net: NetName=NetP3_14 Pin=P3-14
+Added Pin To Net: NetName=NetP3_14 Pin=R9-1
+Added Net: Name=NetP3_14
+Added Pin To Net: NetName=NetP3_15 Pin=P3-15
+Added Pin To Net: NetName=NetP3_15 Pin=R10-1
+Added Net: Name=NetP3_15
+Added Pin To Net: NetName=NetP3_16 Pin=P3-16
+Added Pin To Net: NetName=NetP3_16 Pin=R11-1
+Added Net: Name=NetP3_16
+Added Pin To Net: NetName=NetP4_1 Pin=P4-1
+Added Pin To Net: NetName=NetP4_1 Pin=R32-1
+Added Net: Name=NetP4_1
+Added Pin To Net: NetName=NetP4_2 Pin=P4-2
+Added Pin To Net: NetName=NetP4_2 Pin=R31-1
+Added Net: Name=NetP4_2
+Added Pin To Net: NetName=NetP4_3 Pin=P4-3
+Added Pin To Net: NetName=NetP4_3 Pin=R18-1
+Added Net: Name=NetP4_3
+Added Member To Class: ClassName=Demux Member=Component D24 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component D25 BZT52C5V1-7-F
+Added Member To Class: ClassName=Demux Member=Component R31 10K
+Added Member To Class: ClassName=Demux Member=Component R32 10K
+Added Room: Name=CANBUS
+Added Room: Name=Demux
+Added Room: Name=Master
+Added Room: Name=MCU
